@@ -1,378 +1,367 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "Python",
+    "name": "Python",
+    "creator": "Guido van Rossum",
+    "shortDescription": "Python es como un asistente versátil en la programación, siempre dispuesto a ayudarte en cualquier tarea.",
+    "description": "Python es como un asistente versátil en la programación, siempre dispuesto a ayudarte en cualquier tarea. Su amigable sintaxis y su facilidad de aprendizaje lo convierten en el lenguaje perfecto para iniciarse en la programación y para profesionales experimentados por igual. Desde la creación de simples scripts hasta proyectos complejos de inteligencia artificial, Python brinda herramientas poderosas para una amplia gama de aplicaciones. Además, su comunidad activa y su extensa biblioteca de módulos proporcionan un respaldo sólido, permitiendo a los desarrolladores encontrar soluciones rápidas y eficientes para cualquier desafío que puedan enfrentar en sus proyectos.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsybYhKDHtbBqX-8nGxTD_Xny7sbNCjtL-IQgLUmoNFg&s",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "yearOfBirth": "1991",
+      "companiesUsingIt": "Google",
     }
   },
+
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "JavaScript",
+    "name": "JavaScript",
+    "creator": "Brendan Eich",
+    "shortDescription": "JavaScript, el lenguaje de programación de la web, permite la creación de interactividad dinámica en páginas web.",
+    "description": "JavaScript, el lenguaje de programación de la web, permite la creación de interactividad dinámica en páginas web. Funciona del lado del cliente, permitiendo manipulaciones del DOM, animaciones, manejo de eventos y comunicación asíncrona con el servidor. Es esencial para la construcción de aplicaciones web modernas y responsables de gran parte de la experiencia del usuario en línea. Aprender JavaScript implica comprender sus estructuras de control, funciones, objetos y métodos, así como su integración con HTML y CSS, para desarrollar interfaces de usuario interactivas y responsivas.",
+    "imageUrl": "https://www.silicon.es/wp-content/uploads/2014/03/423531667_3c892a7342_z-428x513.jpg",
+    "imagePath": "ssrc/images/2A JS.jpg",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "yearOfBirth": "1995",
+      "companiesUsingIt": "Microsoft",
     }
+
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id": "Java",
+    "name": "Java",
+    "creator": "James Gosling",
+    "shortDescription": "Lenguaje de programación multipropósito, conocido por su robustez y portabilidad.",
+
+    "description": "Java es un lenguaje de programación multipropósito, conocido por su robustez y portabilidad. Ampliamente utilizado en aplicaciones empresariales y sistemas embebidos, así como en el desarrollo de aplicaciones para dispositivos Android, Java ofrece un entorno de desarrollo confiable y escalable. Su sintaxis, aunque estructurada, proporciona una base sólida para construir aplicaciones de gran escala, aprovechando conceptos como la orientación a objetos y la gestión automática de memoria. Aunque requiere cierto aprendizaje inicial, dominar Java abre la puerta a la creación de una amplia variedad de aplicaciones, desde sistemas bancarios hasta juegos multimedia.",
+    "imageUrl": "https://www.diariodesevilla.es/2020/05/18/efemerides/James-Gosling_1465664475_121567979_667x375.jpg",
+    "imagePath": "src/images/3A Java.jpg",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+      "yearOfBirth": "1995",
+      "companiesUsingIt": "google",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
-    }
+
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "C",
+    "name": "C",
+    "creator": "Denis Ritchie",
+    "shortDescription": "Lenguaje de programación desarrollado por Microsoft, diseñado especialmente para la plataforma .NET.",
+
+    "description": "C es un lenguaje de programación desarrollado por Microsoft, diseñado especialmente para la plataforma .NET. Con C#, los desarrolladores pueden crear una amplia variedad de aplicaciones, incluyendo aplicaciones de escritorio, aplicaciones web y servicios en la nube. Al igual que seguir una receta bien escrita, programar en C# implica seguir pasos estructurados para obtener resultados predecibles y consistentes. Su estrecha integración con Visual Studio, el entorno de desarrollo de Microsoft, proporciona herramientas poderosas que facilitan el proceso de desarrollo, ofreciendo un conjunto completo de funcionalidades para la creación eficiente de software.",
+    "imageUrl": "https://live.mrf.io/statics/i/ps/www.muycomputer.com/wp-content/uploads/2011/10/dennis-ritchie2.jpg?width=1200&enable=upscale",
+    "imagePath": "src/images/4B C#.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+      "yearOfBirth": "2000",
+      "companiesUsingIt": "Microsoft",
+
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
-    }
+
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "Ruby",
+    "name": "Ruby",
+    "creator": "Yukihiro Matsumoto",
+    "shortDescription": "Lenguaje de programación interpretado, conocido por su elegancia y expresividad.",
+
+    "description": "Ruby es un lenguaje de programación interpretado, conocido por su elegancia y expresividad. Ampliamente utilizado en el desarrollo web, especialmente con el framework Ruby on Rails, ofreciendo una sintaxis limpia y fácil de leer. Con su enfoque en la convención sobre configuración, Ruby permite escribir menos código para lograr más funcionalidades. Cada línea de código en Ruby es expresiva y poderosa, lo que facilita la creación de aplicaciones web robustas y eficientes. Su comunidad activa y su amplia gama de gemas (paquetes de software) hacen de Ruby una opción popular para el desarrollo rápido de aplicaciones web.",
+    "imageUrl": "https://i.pinimg.com/originals/c1/1e/31/c11e312e383b9bcd7faedae1743f4f58.jpg",
+    "imagePath": "src/images/5A Ruby.jpg",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+      "yearOfBirth": "1995",
+      "companiesUsingIt": "GitHub",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
+
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id": "Go",
+    "name": "Go (Golang)",
+    "creator": "Robert Griesemer, Rob Pike, Ken Thompson",
+    "shortDescription": "Lenguaje de programación desarrollado por Google, se destaca por su eficiencia y rendimiento.",
+
+    "description": "Go, un lenguaje de programación desarrollado por Google, se destaca por su eficiencia y rendimiento. Ideal para sistemas de alto rendimiento y servidores web, Go se caracteriza por su capacidad para gestionar la concurrencia de manera efectiva y su sintaxis simple. Al aprovechar la concurrencia de manera nativa, Go permite la ejecución simultánea de múltiples tareas, lo que resulta en un procesamiento rápido y eficiente de las solicitudes. Esto lo convierte en una opción popular para aplicaciones que requieren una respuesta rápida y una escalabilidad efectiva en entornos modernos de alto tráfico.",
+    "imageUrl": "https://res.cloudinary.com/practicaldev/image/fetch/s--1ueKtI-b--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/73ium4b17ucmf98z6huk.png",
+    "imagePath": "src/images/6A Goolang.jpg",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+      "yearOfBirth": "2007",
+      "companiesUsingIt": "Google",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
+
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "id": "Swift",
+    "name": "Swift",
+    "shortDescription": "Lenguaje de programación desarrollado por Apple, utilizado principalmente para el desarrollo de aplicaciones iOS y macOS.",
+    "creator": "Apple Inc.",
+
+    "description": "Swift es un lenguaje de programación desarrollado por Apple, utilizado principalmente para el desarrollo de aplicaciones iOS y macOS. Destaca por su seguridad, velocidad y facilidad de uso. Con una sintaxis clara y concisa, Swift simplifica el proceso de desarrollo, permitiendo a los desarrolladores concentrarse en la lógica de la aplicación en lugar de preocuparse por los detalles de bajo nivel. Además, Swift se integra perfectamente con el entorno de desarrollo de Apple, Xcode, proporcionando herramientas poderosas para la creación rápida y eficiente de aplicaciones para dispositivos Apple.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Swift.jpg",
+    "imagePath": "src/images/7B Swift.jpg",
+
+
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "yearOfBirth": "2014",
+      "companiesUsingIt": "linkedin",
     }
   },
+
+
+
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "id": "PHP",
+    "name": "PHP",
+    "creator": "Rasmus Lerdorf",
+    "shortDescription": "Lenguaje de programación de código abierto ampliamente utilizado en el desarrollo web.",
+
+    "description": "PHP, un lenguaje de programación de código abierto ampliamente utilizado en el desarrollo web, es especialmente apreciado por su capacidad para generar contenido dinámico en sitios web y aplicaciones en línea. Actuando como un intérprete de scripts del lado del servidor, PHP permite la ejecución de código directamente en las páginas web, facilitando la creación de contenido personalizado e interactivo en tiempo real. A pesar de las críticas dirigidas a su sintaxis, PHP sigue siendo una herramienta esencial para el desarrollo web, respaldando la creación y el mantenimiento de una amplia gama de proyectos digitales en Internet.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\PHP.jpg",
+    "imagePath": "ssrc/images/8A PHP.jpg",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+      "yearOfBirth": "1994",
+      "companiesUsingIt": "linkedin"
     },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
+
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "id": "Rust",
+    "name": "Rust",
+    "creator": "Graydon Hoare",
+    "shortDescription": "Lenguaje de programación de sistemas que prioriza la seguridad y el rendimiento.",
+
+    "description": "Rust es un lenguaje de programación de sistemas que prioriza la seguridad y el rendimiento. Destacándose por su enfoque en la prevención de errores y vulnerabilidades. Particularmente adecuado para el desarrollo de sistemas operativos, software de redes y aplicaciones donde la integridad y la confiabilidad son críticas. Su sistema de tipos estáticos y de propiedad son únicos, permitiendo detectar y prevenir errores de programación comunes, resultando en un código robusto y seguro. Esto lo convierte en una opción preferida para proyectos que requieren una sólida defensa contra amenazas cibernéticas y un rendimiento óptimo.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Rust.jpg",
+    "imagePath": "src/images/9A Rust.jpg",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+      "yearOfBirth": "2010",
+      "companiesUsingIt": ["Mozilla", "Dropbox"]
     },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
+
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "id": "Kotlin",
+    "name": "Kotlin",
+    "creator": "JetBrains",
+
+    "shortDescription": "Lenguaje de programación diseñado para la creación de aplicaciones específicamente para los ecosistemas Android.",
+    "description": "Kotlin es un lenguaje de programación diseñado para la creación de aplicaciones específicamente para los ecosistemas Android. Al combinar la familiaridad de Java con una sintaxis moderna y concisa, Kotlin simplifica el desarrollo de aplicaciones para dispositivos Android. Su diseño intuitivo y su amplio conjunto de características, como la interoperabilidad sin problemas con Java, la seguridad de tipo estático y la concurrencia simplificada, hacen que Kotlin sea la opción preferida para desarrolladores que buscan eficiencia y productividad en la creación de aplicaciones móviles innovadoras y de alto rendimiento.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Kotlin.jpg",
+    "imagePath": "src/images/10A Kotlin.jpg",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "yearOfBirth": "2011",
+      "companiesUsingIt": "Google",
     },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
-    }
+
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id": "TypeScript",
+    "name": "TypeScript",
+    "shortDescription": "Corrector ortográfico avanzado para JavaScript, proporcionando herramientas adicionales para mejorar la estructura y verificación del código.",
+    "description": "TypeScript actúa como un corrector ortográfico avanzado para JavaScript, proporcionando herramientas adicionales para mejorar la estructura y verificación del código. Al agregar tipos estáticos y características modernas, como interfaces y decoradores, TypeScript eleva la calidad y la robustez del código JavaScript, permitiendo a los desarrolladores detectar y corregir errores de manera más eficiente. Esta capa adicional de seguridad y claridad ayuda a garantizar una base sólida para proyectos web más seguros y fiables, al tiempo que mejora la experiencia de desarrollo al proporcionar un entorno de codificación más estructurado y productivo.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Typescript.jpg",
+    "imagePath": "src/images/11C Typescript.jpg",
+
+
+    "creator": "Microsoft",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "yearOfBirth": "2012",
+      "companiesUsingIt": "Google",
     },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
-    }
+
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": "Scala",
+    "name": "Scala",
+    "shortDescription": "Lenguaje de programación de propósito general que fusiona la programación funcional con la orientada a objetos.",
+    "description": "Scala es un lenguaje de programación de propósito general que fusiona la programación funcional con la orientada a objetos. Su flexibilidad y robustez lo hacen adecuado para una amplia variedad de aplicaciones, desde desarrollo empresarial hasta análisis de datos. Con una sintaxis que permite expresiones concisas y elegantes, Scala facilita la escritura de código claro y eficiente. Su interoperabilidad con Java y su soporte para la concurrencia lo convierten en una opción popular entre los desarrolladores que buscan un equilibrio entre la expresividad de la programación funcional y la familiaridad de la orientada a objetos.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Scala.jpg",
+    "imagePath": "src/images/12B Scala.jpg",
+
+
+    "creator": "Martin Odersky",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "yearOfBirth": "2003",
+      "companiesUsingIt": "LinkedIn",
     },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
-    }
+
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "id": "Haskell",
+    "name": "Haskell",
+    "shortDescription": "Haskell es un lenguaje de programación funcional conocido por su elegancia y enfoque en la programación declarativa.",
+    "description": "Haskell es un lenguaje de programación funcional conocido por su elegancia y enfoque en la programación declarativa. Su sistema de tipos estático y sólido, junto con su énfasis en la inmutabilidad y la recursión, lo convierten en una herramienta poderosa para el desarrollo de software robusto y seguro. Ampliamente utilizado en aplicaciones financieras, científicas y de inteligencia artificial, Haskell se destaca por su capacidad para expresar ideas de manera concisa y precisa. Su énfasis en la pureza funcional y la evaluación perezosa lo hace ideal para la creación de algoritmos eficientes y escalables.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Haskell.jpg",
+
+
+    "creator": "Comite Haskell",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "yearOfBirth": "1990",
+      "companiesUsingIt": "Facebook",
     },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
-    }
+
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "id": "Perl",
+    "name": "Perl",
+    "shortDescription": "Perl es un lenguaje de programación reconocido por su robusto procesamiento de texto y expresiones regulares.",
+    "description": "Perl es un lenguaje de programación reconocido por su robusto procesamiento de texto y expresiones regulares. Con una sintaxis versátil y poderosas capacidades para manipular cadenas de caracteres, Perl es ampliamente utilizado en tareas de análisis de datos, desarrollo web y administración de sistemas. Su flexibilidad y eficiencia en el manejo de texto lo convierten en una herramienta invaluable para la automatización de tareas y el procesamiento de archivos. Perl es apreciado por su capacidad para abordar problemas complejos relacionados con el procesamiento de texto de manera rápida y efectiva.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Perl.jpg",
+
+
+    "creator": " Larry Wall",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "yearOfBirth": "1987",
+      "companiesUsingIt": ["Amazon", "Booking", "IMdB"]
     },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
-    }
+
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "id": "Lua",
+    "name": "Lua",
+    "shortDescription": "Lua es un lenguaje de programación ligero y versátil, apreciado por su simplicidad y eficiencia.",
+    "description": "Lua es un lenguaje de programación ligero y versátil, apreciado por su simplicidad y eficiencia. Con una rápida ejecución y fácil integración en otros sistemas, Lua se destaca en el desarrollo de scripts, juegos y sistemas embebidos. Su diseño minimalista y sintaxis flexible lo hacen accesible para programadores de todos los niveles. Lua es reconocido por su sólido soporte para la programación orientada a objetos y su capacidad para extender aplicaciones mediante la creación de módulos y bibliotecas personalizadas. Su comunidad activa y amplia documentación hacen de Lua una opción popular en una variedad de proyectos de software.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Lua.jpg",
+
+
+    "creator": "Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "yearOfBirth": "1993",
+      "companiesUsingIt": ["Blizzard Entertainment", "Adobe"]
     }
+
+    },
+  {
+    "id": "Dart",
+    "name": "Dart",
+    "shortDescription": "Dart es un lenguaje de programación versátil y moderno, desarrollado por Google, conocido por su eficiencia y facilidad de uso.",
+    "description": "Dart es un lenguaje de programación versátil y moderno, desarrollado por Google, conocido por su eficiencia y facilidad de uso. Diseñado para la creación de aplicaciones móviles, web y de escritorio, Dart ofrece un sistema de tipos fuerte y opciones de compilación tanto a JavaScript como a código nativo. Su sintaxis clara y concisa, junto con su robusto conjunto de bibliotecas, lo convierten en una opción popular entre los desarrolladores. Dart es apreciado por su rendimiento, productividad y capacidad para construir aplicaciones escalables y de alto rendimiento",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Dart.jpg",
+
+
+    "creator": "Google",
+    "facts": {
+      "yearOfBirth": "2011",
+      "companiesUsingIt": "Google",
+    },
+
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "id": "Elixir",
+    "name": "Elixir",
+    "shortDescription": "Elixir es un lenguaje de programación funcional y concurrente, construido sobre la plataforma de Erlang.",
+    "description": "Elixir es un lenguaje de programación funcional y concurrente, construido sobre la plataforma de Erlang, valorado por su escalabilidad y tolerancia a fallos. Su sintaxis clara y expresiva facilita el desarrollo de sistemas distribuidos y tolerantes a fallos, convirtiéndolo en una opción ideal para aplicaciones en tiempo real. La concurrencia y el paralelismo son pilares fundamentales de Elixir, lo que lo hace perfecto para sistemas que requieren alta disponibilidad y rendimiento.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Elixir.jpg",
+
+
+    "creator": "Jose Valim",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+      "yearOfBirth": "2011",
+      "companiesUsingIt": ["Discord", "Bleacher Report"]
     },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
-    }
+    
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "id": "Groovy",
+    "name": "Groovy",
+    "shortDescription": "Groovy es un lenguaje de programación dinámico y orientado a objetos diseñado para la plataforma Java.",
+    "description": "Groovy es un lenguaje de programación dinámico y orientado a objetos diseñado para la plataforma Java. Con una sintaxis similar a Java pero menos restrictiva, Groovy ofrece mayor flexibilidad y productividad en el desarrollo de aplicaciones empresariales y web. Su integración perfecta con bibliotecas Java existentes y su capacidad para escribir código conciso y legible lo hacen popular entre los desarrolladores que buscan una alternativa más ágil y dinámica para Java.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Groovy.jpg",
+
+
+    "creator": "James Strachan",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+      "yearOfBirth": "2003",
+      "companiesUsingIt": "Linkedin",
     },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
-    }
+
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
-  },
-  {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "id": "COBOL",
+    "name": "COBOL",
+    "shortDescription": "COBOL (Common Business-Oriented Language) es un lenguaje de programación ampliamente utilizado en aplicaciones comerciales y financieras.",
+    "description": "COBOL (Common Business-Oriented Language) es un lenguaje de programación ampliamente utilizado en aplicaciones comerciales y financieras. A pesar de su antigüedad, COBOL sigue siendo relevante hoy en día, especialmente en sistemas heredados y mainframes. Con una sintaxis estructurada y legible, COBOL se centra en el procesamiento de datos empresariales y la gestión de transacciones, proporcionando un entorno estable y confiable para aplicaciones críticas de negocios.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\COBOL.jpg",
+
+
+    "creator": " Comité de la Conferencia de Organizaciones de Procesamiento de Datos (COPD)",
     "facts": {
       "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+      "companiesUsingIt": ["IBM", "Fujitsu"]
     }
-  },
+
+    },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "id": "Prolog",
+    "name": "Prolog",
+    "shortDescription": "Prolog es un lenguaje de programación lógica utilizado principalmente en inteligencia artificial y procesamiento de lenguaje natural. ",
+    "description": "Prolog es un lenguaje de programación lógica utilizado principalmente en inteligencia artificial y procesamiento de lenguaje natural. Basado en la lógica de predicados, Prolog permite expresar relaciones y reglas de manera declarativa, facilitando la resolución de problemas complejos de búsqueda y razonamiento. Su capacidad para inferir hechos y reglas lo hace adecuado para la creación de sistemas expertos y aplicaciones de lógica difusa, convirtiéndolo en una herramienta poderosa para el desarrollo de aplicaciones inteligentes.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Prolog.jpg",
+
+
+    "creator": "Alain Colmerauer, Robert Kowalski",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+      "yearOfBirth": "1972",
+      "companiesUsingIt": ["Siemens", "SWI-Prolog Solutions"]
     },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
+
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "id": "Ada",
+    "name": "Ada",
+    "shortDescription": "Ada es un lenguaje de programación estructurado y orientado a objetos, diseñado originalmente para aplicaciones críticas en defensa y aviación. ",
+    "description": "Ada es un lenguaje de programación estructurado y orientado a objetos, diseñado originalmente para aplicaciones críticas en defensa y aviación. Con una sintaxis clara y precisa, Ada se centra en la seguridad, la fiabilidad y el rendimiento, proporcionando un entorno robusto para el desarrollo de sistemas críticos. Su fuerte sistema de tipos y su énfasis en la verificación estática de errores lo hacen adecuado para aplicaciones de misión crítica donde la seguridad y la precisión son fundamentales.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Ada.jpg",
+
+
+    "creator": "Jean Ichbiah por encargo del Departamento de Defensa de los Estados Unidos.",
     "facts": {
       "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+      "companiesUsingIt": ["Lockheed Martin", "General Dynamics"]
     },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
+
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "id": "Lisp",
+    "name": "Lisp",
+    "shortDescription": "Lisp es un lenguaje de programación funcional y dinámico,",
+    "description": "Lisp es un lenguaje de programación funcional y dinámico, conocido por su poderoso sistema de macro y su enfoque en la manipulación de listas. Desarrollado en la década de 1950, Lisp ha influido en muchos otros lenguajes de programación y es ampliamente utilizado en inteligencia artificial, procesamiento de lenguaje natural y desarrollo de software científico. Su flexibilidad y expresividad lo convierten en una opción popular para proyectos que requieren alta productividad y adaptabilidad.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Lisp.jpg",
+
+
+    "creator": "John McCarthy",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+      "yearOfBirth": "1858",
+      "companiesUsingIt": "Google",
     },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
+
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
+    "id": "COOL (Classroom Object-Oriented Language)",
+    "name": "COOL (Classroom Object-Oriented Language)",
+    "shortDescription": "Cool (Classroom Object-Oriented Language) es un lenguaje de programación diseñado para la enseñanza de conceptos de programación",
+    "description": "Cool (Classroom Object-Oriented Language) es un lenguaje de programación diseñado para la enseñanza de conceptos de programación orientada a objetos. Inspirado en Java, Cool simplifica los conceptos fundamentales de la programación orientada a objetos y proporciona una plataforma para experimentar con conceptos como herencia, polimorfismo y encapsulación. Su sintaxis simple y su enfoque en la enseñanza lo hacen adecuado para estudiantes y educadores que desean aprender o enseñar programación orientada a objetos de manera efectiva.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Cool.jpg",
+
+
+    "creator": "Alex Aiken",
     "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+      "yearOfBirth": "1995",
+      "companiesUsingIt": ["Universidad de Stanford"]
     },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
+    
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
+    "id": "Assembler",
+    "name": "Assembler",
+    "shortDescription": "Assembler es un lenguaje de programación de bajo nivel que proporciona una representación simbólica de las instrucciones de máquina.",
+    "description": "Assembler es un lenguaje de programación de bajo nivel utilizado para escribir programas directamente en el lenguaje de máquina de un ordenador. Aunque es complejo y propenso a errores, Assembler ofrece un control preciso sobre el hardware y es necesario para tareas de programación de sistemas y desarrollo de controladores. Su sintaxis específica de la arquitectura y su naturaleza cercana al hardware lo hacen adecuado para programadores con conocimientos avanzados en informática y sistemas embebidos.",
+    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Assembler.jpg",
+    "imagepath": "C:/Users/USUARIO/Documents/GitHub/Data-Verse/src/images/24A Assembler.jpg",
+
+    
+    "creator": "Maurice Wilkes",
     "facts": {
       "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
+      "companiesUsingit": ["Intel", "IBM"]
     },
-    "extraInfo": {
-      "imageSource": ""
-    }
+    
   }
-];
+]
