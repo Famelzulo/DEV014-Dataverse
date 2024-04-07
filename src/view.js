@@ -1,5 +1,5 @@
 export const renderItems = (data) => {
-  console.log(data);
+  //console.log(data);
   // Aquí comienza tu código y puedes retornar lo que tu necesites
 
   // <dl itemscope itemtype="Lenguajes de programacion">
@@ -36,7 +36,7 @@ export const renderItems = (data) => {
   `
   });
 
-  console.log(blocoItems);
+  //console.log(blocoItems);
 
   return `<ul id ="languaje__list" class="languaje__item__container" >${blocoItems} </ul>`;
 };
