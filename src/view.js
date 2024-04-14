@@ -18,7 +18,9 @@ export const renderItems = (data) => {
       imageUrl: item.imageUrl,
       shortDescription: item.shortDescription,
       creator: item.creator,
-      yearOfBirth: item.facts.yearOfBirth,
+      yearOfBirth: item.yearOfBirth,
+      empresa: item.facts.Empresa,
+      category: item.facts.category,
     }
   })
   let blocoItems = ""
@@ -28,15 +30,20 @@ export const renderItems = (data) => {
           <div class="languaje__content">
           <img src="${item.imageUrl}" class="languaje__img">
             <dd itemprop="select-sort"><p><strong>Nombre:</strong>${item.name}</p></dd>
-            <dd itemprop="select-sort"><p><strong>Creador:</strong>:${item.creator}</p></dd>    
+            <dd itemprop="select-sort"><p><strong>Lenguaje:</strong>:${item.creator}</p></dd>    
             <dd itemprop="select-sort"><p><strong>Año de creacion:</strong> ${item.yearOfBirth}</p></dd>
             <p> <class="languaje__description">${item.shortDescription}</p>
-          </div>
+            <dd itemprop="select-sort"><p><strong>Empresa:</strong>${item.empresa}</p></dd>
+            <dd itemprop="select-sort"><p><strong>Categoria:</strong>${item.category}</p></dd>
+            </div>
         </li>
   `
   });
-
+  const ul = document.createElement('ul');
+  ul.classList.add('languaje__item__container')
+  ul.setAttribute('id', 'languaje__list')
   //console.log(blocoItems);
+  ul.innerHTML = blocoItems;
 
-  return `<ul id ="languaje__list" class="languaje__item__container" >${blocoItems} </ul>`;
+  return ul; //"<ul id ='languaje__list' class='languaje__item__container' >${blocoItems} </ul>";
 };
