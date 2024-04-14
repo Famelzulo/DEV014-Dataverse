@@ -1,367 +1,323 @@
 export default [
   {
-    "id": "Python",
-    "name": "Python",
-    "creator": "Guido van Rossum",
-    "shortDescription": "Python es como un asistente versátil en la programación, siempre dispuesto a ayudarte en cualquier tarea.",
-    "description": "Python es como un asistente versátil en la programación, siempre dispuesto a ayudarte en cualquier tarea. Su amigable sintaxis y su facilidad de aprendizaje lo convierten en el lenguaje perfecto para iniciarse en la programación y para profesionales experimentados por igual. Desde la creación de simples scripts hasta proyectos complejos de inteligencia artificial, Python brinda herramientas poderosas para una amplia gama de aplicaciones. Además, su comunidad activa y su extensa biblioteca de módulos proporcionan un respaldo sólido, permitiendo a los desarrolladores encontrar soluciones rápidas y eficientes para cualquier desafío que puedan enfrentar en sus proyectos.",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsybYhKDHtbBqX-8nGxTD_Xny7sbNCjtL-IQgLUmoNFg&s",
+    "id": "python",
+    "name": "Guido Van Rossum",
+    "creator": "Python",
+    "yearOfBirth": 1956,
+    "shortDescription": "Guido van Rossum es un informático holandés, creador del lenguaje de programación Python y defensor del código abierto.",
+    "description": "Python es un lenguaje de programación de alto nivel, multipropósito y de código abierto, creado por Guido van Rossum en 1991. Se destaca por su sintaxis clara y legible, lo que lo hace ideal tanto para principiantes como para programadores experimentados. Python es conocido por su enfoque en la legibilidad del código y su filosofía de \"baterías incluidas\", que significa que viene con una amplia biblioteca estándar que facilita el desarrollo de una variedad de aplicaciones y proyectos. Es ampliamente utilizado en desarrollo web, análisis de datos, inteligencia artificial, aprendizaje automático y más.",
+    "imageUrl": "https://4.bp.blogspot.com/-_zzsmq_HXhA/VqwJGri_AqI/AAAAAAAAskI/lEpb1q3cvgs/s1600/01-31%2BEfemerides%2Bde%2BTecnologia%2BGuido_van_Rossum.jpg",
     "facts": {
-      "yearOfBirth": "1991",
-      "companiesUsingIt": "Google",
+     "Empresa": "Google",
+     "category": "No tipado",
+
     }
   },
-
   {
-    "id": "JavaScript",
-    "name": "JavaScript",
-    "creator": "Brendan Eich",
-    "shortDescription": "JavaScript, el lenguaje de programación de la web, permite la creación de interactividad dinámica en páginas web.",
-    "description": "JavaScript, el lenguaje de programación de la web, permite la creación de interactividad dinámica en páginas web. Funciona del lado del cliente, permitiendo manipulaciones del DOM, animaciones, manejo de eventos y comunicación asíncrona con el servidor. Es esencial para la construcción de aplicaciones web modernas y responsables de gran parte de la experiencia del usuario en línea. Aprender JavaScript implica comprender sus estructuras de control, funciones, objetos y métodos, así como su integración con HTML y CSS, para desarrollar interfaces de usuario interactivas y responsivas.",
-    "imageUrl": "https://www.silicon.es/wp-content/uploads/2014/03/423531667_3c892a7342_z-428x513.jpg",
-    "imagePath": "ssrc/images/2A JS.jpg",
-    "facts": {
-      "yearOfBirth": "1995",
-      "companiesUsingIt": "Microsoft",
+    "id": "Javascript",
+    "name": "Brendan Eich",
+    "creator": " JavaScript ",
+    "shortDescription": "JavaScript es un lenguaje de programación ampliamente utilizado para desarrollo web y más, creado por Brendan Eich.",
+    "description": "JavaScript es un lenguaje de programación de alto nivel, interpretado y de scripting. Es ampliamente utilizado para el desarrollo web, permitiendo la interactividad en páginas web a través de la manipulación del DOM y la gestión de eventos. Creado por Brendan Eich en 1995 mientras trabajaba en Netscape Communications Corporation, JavaScript ha evolucionado para ser un lenguaje de programación versátil, utilizado no solo en el desarrollo web, sino también en la creación de aplicaciones de servidor, aplicaciones móviles y más.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyJHoOW-MkaXtyrp5tvSiwiMEXz0g8x04HmRLjJVB9sA&s",
+     "yearOfBirth": 1995,
+     "facts": {
+     "Empresa": "Google",
+     "category": "No tipado",
     }
-
-  },
-  {
-    "id": "Java",
-    "name": "Java",
-    "creator": "James Gosling",
-    "shortDescription": "Lenguaje de programación multipropósito, conocido por su robustez y portabilidad.",
-
-    "description": "Java es un lenguaje de programación multipropósito, conocido por su robustez y portabilidad. Ampliamente utilizado en aplicaciones empresariales y sistemas embebidos, así como en el desarrollo de aplicaciones para dispositivos Android, Java ofrece un entorno de desarrollo confiable y escalable. Su sintaxis, aunque estructurada, proporciona una base sólida para construir aplicaciones de gran escala, aprovechando conceptos como la orientación a objetos y la gestión automática de memoria. Aunque requiere cierto aprendizaje inicial, dominar Java abre la puerta a la creación de una amplia variedad de aplicaciones, desde sistemas bancarios hasta juegos multimedia.",
-    "imageUrl": "https://www.diariodesevilla.es/2020/05/18/efemerides/James-Gosling_1465664475_121567979_667x375.jpg",
-    "imagePath": "src/images/3A Java.jpg",
-    "facts": {
-      "yearOfBirth": "1995",
-      "companiesUsingIt": "google",
-    },
-
-  },
-  {
-    "id": "C",
-    "name": "C",
-    "creator": "Denis Ritchie",
-    "shortDescription": "Lenguaje de programación desarrollado por Microsoft, diseñado especialmente para la plataforma .NET.",
-
-    "description": "C es un lenguaje de programación desarrollado por Microsoft, diseñado especialmente para la plataforma .NET. Con C#, los desarrolladores pueden crear una amplia variedad de aplicaciones, incluyendo aplicaciones de escritorio, aplicaciones web y servicios en la nube. Al igual que seguir una receta bien escrita, programar en C# implica seguir pasos estructurados para obtener resultados predecibles y consistentes. Su estrecha integración con Visual Studio, el entorno de desarrollo de Microsoft, proporciona herramientas poderosas que facilitan el proceso de desarrollo, ofreciendo un conjunto completo de funcionalidades para la creación eficiente de software.",
-    "imageUrl": "https://live.mrf.io/statics/i/ps/www.muycomputer.com/wp-content/uploads/2011/10/dennis-ritchie2.jpg?width=1200&enable=upscale",
-    "imagePath": "src/images/4B C#.jpg",
-    "facts": {
-      "yearOfBirth": "2000",
-      "companiesUsingIt": "Microsoft",
-
-    },
-
   },
   {
     "id": "Ruby",
-    "name": "Ruby",
-    "creator": "Yukihiro Matsumoto",
-    "shortDescription": "Lenguaje de programación interpretado, conocido por su elegancia y expresividad.",
-
-    "description": "Ruby es un lenguaje de programación interpretado, conocido por su elegancia y expresividad. Ampliamente utilizado en el desarrollo web, especialmente con el framework Ruby on Rails, ofreciendo una sintaxis limpia y fácil de leer. Con su enfoque en la convención sobre configuración, Ruby permite escribir menos código para lograr más funcionalidades. Cada línea de código en Ruby es expresiva y poderosa, lo que facilita la creación de aplicaciones web robustas y eficientes. Su comunidad activa y su amplia gama de gemas (paquetes de software) hacen de Ruby una opción popular para el desarrollo rápido de aplicaciones web.",
-    "imageUrl": "https://i.pinimg.com/originals/c1/1e/31/c11e312e383b9bcd7faedae1743f4f58.jpg",
-    "imagePath": "src/images/5A Ruby.jpg",
-    "facts": {
-      "yearOfBirth": "1995",
-      "companiesUsingIt": "GitHub",
-    },
-
-  },
-  {
-    "id": "Go",
-    "name": "Go (Golang)",
-    "creator": "Robert Griesemer, Rob Pike, Ken Thompson",
-    "shortDescription": "Lenguaje de programación desarrollado por Google, se destaca por su eficiencia y rendimiento.",
-
-    "description": "Go, un lenguaje de programación desarrollado por Google, se destaca por su eficiencia y rendimiento. Ideal para sistemas de alto rendimiento y servidores web, Go se caracteriza por su capacidad para gestionar la concurrencia de manera efectiva y su sintaxis simple. Al aprovechar la concurrencia de manera nativa, Go permite la ejecución simultánea de múltiples tareas, lo que resulta en un procesamiento rápido y eficiente de las solicitudes. Esto lo convierte en una opción popular para aplicaciones que requieren una respuesta rápida y una escalabilidad efectiva en entornos modernos de alto tráfico.",
-    "imageUrl": "https://res.cloudinary.com/practicaldev/image/fetch/s--1ueKtI-b--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/73ium4b17ucmf98z6huk.png",
-    "imagePath": "src/images/6A Goolang.jpg",
-    "facts": {
-      "yearOfBirth": "2007",
-      "companiesUsingIt": "Google",
-    },
-
-  },
-  {
-    "id": "Swift",
-    "name": "Swift",
-    "shortDescription": "Lenguaje de programación desarrollado por Apple, utilizado principalmente para el desarrollo de aplicaciones iOS y macOS.",
-    "creator": "Apple Inc.",
-
-    "description": "Swift es un lenguaje de programación desarrollado por Apple, utilizado principalmente para el desarrollo de aplicaciones iOS y macOS. Destaca por su seguridad, velocidad y facilidad de uso. Con una sintaxis clara y concisa, Swift simplifica el proceso de desarrollo, permitiendo a los desarrolladores concentrarse en la lógica de la aplicación en lugar de preocuparse por los detalles de bajo nivel. Además, Swift se integra perfectamente con el entorno de desarrollo de Apple, Xcode, proporcionando herramientas poderosas para la creación rápida y eficiente de aplicaciones para dispositivos Apple.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Swift.jpg",
-    "imagePath": "src/images/7B Swift.jpg",
-
-
-    "facts": {
-      "yearOfBirth": "2014",
-      "companiesUsingIt": "linkedin",
+    "name": " Yukihiro Matsumoto (Matz)",
+    "creator": " Ruby",
+    "shortDescription": "Ruby es un lenguaje de programación dinámico, de código abierto y orientado a objetos, creado por Yukihiro Matsumoto (Matz).",
+    "description": "Ruby es un lenguaje de programación dinámico, interpretado y de código abierto, conocido por su simplicidad y productividad. Creado por Yukihiro Matsumoto (Matz) en 1995, Ruby se inspiró en lenguajes como Perl, Smalltalk, Lisp y Python. Destaca por su sintaxis elegante y legible, así como por su enfoque en la felicidad del programador. Ruby es ampliamente utilizado en el desarrollo web, gracias a frameworks como Ruby on Rails, así como en una variedad de otros campos, incluyendo automatización, scripting y análisis de datos.",
+    "imageUrl": "https://i.pinimg.com/originals/26/55/e5/2655e59401961d64f2746ac3bc5463bf.jpg",
+    "yearOfBirth": 1995,
+      "facts": {
+   "Empresa":  "Personalizado",
+   "category": "No tipado",
     }
-  },
-
-
-
-  {
-    "id": "PHP",
-    "name": "PHP",
-    "creator": "Rasmus Lerdorf",
-    "shortDescription": "Lenguaje de programación de código abierto ampliamente utilizado en el desarrollo web.",
-
-    "description": "PHP, un lenguaje de programación de código abierto ampliamente utilizado en el desarrollo web, es especialmente apreciado por su capacidad para generar contenido dinámico en sitios web y aplicaciones en línea. Actuando como un intérprete de scripts del lado del servidor, PHP permite la ejecución de código directamente en las páginas web, facilitando la creación de contenido personalizado e interactivo en tiempo real. A pesar de las críticas dirigidas a su sintaxis, PHP sigue siendo una herramienta esencial para el desarrollo web, respaldando la creación y el mantenimiento de una amplia gama de proyectos digitales en Internet.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\PHP.jpg",
-    "imagePath": "ssrc/images/8A PHP.jpg",
-    "facts": {
-      "yearOfBirth": "1994",
-      "companiesUsingIt": "linkedin"
-    },
-
-  },
-  {
-    "id": "Rust",
-    "name": "Rust",
-    "creator": "Graydon Hoare",
-    "shortDescription": "Lenguaje de programación de sistemas que prioriza la seguridad y el rendimiento.",
-
-    "description": "Rust es un lenguaje de programación de sistemas que prioriza la seguridad y el rendimiento. Destacándose por su enfoque en la prevención de errores y vulnerabilidades. Particularmente adecuado para el desarrollo de sistemas operativos, software de redes y aplicaciones donde la integridad y la confiabilidad son críticas. Su sistema de tipos estáticos y de propiedad son únicos, permitiendo detectar y prevenir errores de programación comunes, resultando en un código robusto y seguro. Esto lo convierte en una opción preferida para proyectos que requieren una sólida defensa contra amenazas cibernéticas y un rendimiento óptimo.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Rust.jpg",
-    "imagePath": "src/images/9A Rust.jpg",
-    "facts": {
-      "yearOfBirth": "2010",
-      "companiesUsingIt": ["Mozilla", "Dropbox"]
-    },
-
-  },
-  {
-    "id": "Kotlin",
-    "name": "Kotlin",
-    "creator": "JetBrains",
-
-    "shortDescription": "Lenguaje de programación diseñado para la creación de aplicaciones específicamente para los ecosistemas Android.",
-    "description": "Kotlin es un lenguaje de programación diseñado para la creación de aplicaciones específicamente para los ecosistemas Android. Al combinar la familiaridad de Java con una sintaxis moderna y concisa, Kotlin simplifica el desarrollo de aplicaciones para dispositivos Android. Su diseño intuitivo y su amplio conjunto de características, como la interoperabilidad sin problemas con Java, la seguridad de tipo estático y la concurrencia simplificada, hacen que Kotlin sea la opción preferida para desarrolladores que buscan eficiencia y productividad en la creación de aplicaciones móviles innovadoras y de alto rendimiento.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Kotlin.jpg",
-    "imagePath": "src/images/10A Kotlin.jpg",
-    "facts": {
-      "yearOfBirth": "2011",
-      "companiesUsingIt": "Google",
-    },
-
-  },
-  {
-    "id": "TypeScript",
-    "name": "TypeScript",
-    "shortDescription": "Corrector ortográfico avanzado para JavaScript, proporcionando herramientas adicionales para mejorar la estructura y verificación del código.",
-    "description": "TypeScript actúa como un corrector ortográfico avanzado para JavaScript, proporcionando herramientas adicionales para mejorar la estructura y verificación del código. Al agregar tipos estáticos y características modernas, como interfaces y decoradores, TypeScript eleva la calidad y la robustez del código JavaScript, permitiendo a los desarrolladores detectar y corregir errores de manera más eficiente. Esta capa adicional de seguridad y claridad ayuda a garantizar una base sólida para proyectos web más seguros y fiables, al tiempo que mejora la experiencia de desarrollo al proporcionar un entorno de codificación más estructurado y productivo.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Typescript.jpg",
-    "imagePath": "src/images/11C Typescript.jpg",
-
-
-    "creator": "Microsoft",
-    "facts": {
-      "yearOfBirth": "2012",
-      "companiesUsingIt": "Google",
-    },
-
-  },
-  {
-    "id": "Scala",
-    "name": "Scala",
-    "shortDescription": "Lenguaje de programación de propósito general que fusiona la programación funcional con la orientada a objetos.",
-    "description": "Scala es un lenguaje de programación de propósito general que fusiona la programación funcional con la orientada a objetos. Su flexibilidad y robustez lo hacen adecuado para una amplia variedad de aplicaciones, desde desarrollo empresarial hasta análisis de datos. Con una sintaxis que permite expresiones concisas y elegantes, Scala facilita la escritura de código claro y eficiente. Su interoperabilidad con Java y su soporte para la concurrencia lo convierten en una opción popular entre los desarrolladores que buscan un equilibrio entre la expresividad de la programación funcional y la familiaridad de la orientada a objetos.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Scala.jpg",
-    "imagePath": "src/images/12B Scala.jpg",
-
-
-    "creator": "Martin Odersky",
-    "facts": {
-      "yearOfBirth": "2003",
-      "companiesUsingIt": "LinkedIn",
-    },
-
-  },
-  {
-    "id": "Haskell",
-    "name": "Haskell",
-    "shortDescription": "Haskell es un lenguaje de programación funcional conocido por su elegancia y enfoque en la programación declarativa.",
-    "description": "Haskell es un lenguaje de programación funcional conocido por su elegancia y enfoque en la programación declarativa. Su sistema de tipos estático y sólido, junto con su énfasis en la inmutabilidad y la recursión, lo convierten en una herramienta poderosa para el desarrollo de software robusto y seguro. Ampliamente utilizado en aplicaciones financieras, científicas y de inteligencia artificial, Haskell se destaca por su capacidad para expresar ideas de manera concisa y precisa. Su énfasis en la pureza funcional y la evaluación perezosa lo hace ideal para la creación de algoritmos eficientes y escalables.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Haskell.jpg",
-
-
-    "creator": "Comite Haskell",
-    "facts": {
-      "yearOfBirth": "1990",
-      "companiesUsingIt": "Facebook",
-    },
-
   },
   {
     "id": "Perl",
-    "name": "Perl",
-    "shortDescription": "Perl es un lenguaje de programación reconocido por su robusto procesamiento de texto y expresiones regulares.",
-    "description": "Perl es un lenguaje de programación reconocido por su robusto procesamiento de texto y expresiones regulares. Con una sintaxis versátil y poderosas capacidades para manipular cadenas de caracteres, Perl es ampliamente utilizado en tareas de análisis de datos, desarrollo web y administración de sistemas. Su flexibilidad y eficiencia en el manejo de texto lo convierten en una herramienta invaluable para la automatización de tareas y el procesamiento de archivos. Perl es apreciado por su capacidad para abordar problemas complejos relacionados con el procesamiento de texto de manera rápida y efectiva.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Perl.jpg",
-
-
-    "creator": " Larry Wall",
+    "name": "Larry Wall ",
+    "creator": "Perl ",
+    "shortDescription": "Perl es un lenguaje de programación interpretado, versátil y poderoso, creado por Larry Wall.",
+    "description": "Perl es un lenguaje de programación interpretado, versátil y poderoso, diseñado para facilitar la manipulación de texto y la automatización de tareas comunes en sistemas Unix. Creado por Larry Wall en 1987, Perl ha evolucionado para convertirse en un lenguaje ampliamente utilizado en una variedad de aplicaciones, incluyendo desarrollo web, administración de sistemas, análisis de datos y más. Con una rica biblioteca de módulos y una sintaxis flexible, Perl permite a los desarrolladores escribir código conciso y expresivo para una amplia gama de problemas.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxes9TpANI4JyAnx4JSYEO_yZsJwQFPdjrn_HTNHJXDQ&s",
+    
+      "yearOfBirth": 1987,
+      "facts": {
+       "Empresa": "Amazon",
+       "category": "No tipado",
+    }
+  },
+  {
+    "id": "C",
+    "name":  ["Dennis Ritchie", "Brian Kernighan"],
+    "creator": " C ",
+    "shortDescription": "C es un lenguaje de programación de bajo nivel y ampliamente utilizado, creado por Dennis Ritchie y Brian Kernighan.",
+    "description": "C es un lenguaje de programación de propósito general, imperativo, estructurado y de bajo nivel. Creado por Dennis Ritchie y Brian Kernighan en los laboratorios Bell en 1972, C se ha convertido en uno de los lenguajes de programación más influyentes de la historia. Es ampliamente utilizado en el desarrollo de sistemas operativos, compiladores, dispositivos embebidos y aplicaciones de alto rendimiento debido a su eficiencia y control directo sobre el hardware. C es conocido por su sintaxis concisa y potente, así como por su capacidad para acceder y manipular directamente la memoria del sistema.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ken_Thompson_and_Dennis_Ritchie--1973.jpg/200px-Ken_Thompson_and_Dennis_Ritchie--1973.jpg",
+    
+      "yearOfBirth": 1972,
+      "facts": {
+    "Empresa": "Amazon",
+    "category": "Turing completo" ,
+    }
+  },
+  {
+    "id": "C ++",
+    "name": " Bjarne Stroustrup",
+    "creator": " C++",
+    "shortDescription": "C++ es un lenguaje de programación de propósito general y de alto nivel, creado por Bjarne Stroustrup.",
+    "description": "C++ es un lenguaje de programación de propósito general y de alto nivel, derivado del lenguaje C. Fue creado por Bjarne Stroustrup en 1983 como una extensión del lenguaje C, añadiendo características de programación orientada a objetos y otros paradigmas de programación. C++ es ampliamente utilizado en el desarrollo de sistemas, software de aplicaciones, videojuegos, software de sistemas embebidos y mucho más. Con su potencia y flexibilidad, C++ permite a los desarrolladores escribir código eficiente y portátil para una amplia gama de aplicaciones.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUPw3RamUyuUJOvJN7-YXJvFfVWL3g304ZG516EhIZw&s",
+    
+      "yearOfBirth": 1983,
+      "facts": {
+      "Empresa": "Amazon",
+      "category": "Turing completo",
+    }
+  },
+  
+  {
+    "id": "Java",
+    "name": " James Gosling",
+    "creator": "Java",
+    "shortDescription": "Java es un lenguaje de programación de propósito general y orientado a objetos, creado por James Gosling.",
+    "description": "Java es un lenguaje de programación de propósito general, orientado a objetos y diseñado para tener la menor cantidad de dependencias de implementación posibles. Fue creado por James Gosling en Sun Microsystems en 1995. Java se destaca por su portabilidad, ya que el código escrito en Java se puede ejecutar en cualquier plataforma que tenga una máquina virtual Java (JVM) instalada. Es ampliamente utilizado en el desarrollo de aplicaciones empresariales, desarrollo de aplicaciones móviles (Android), desarrollo web, entre otros mas.",
+    "imageUrl": "https://cdn.facesofopensource.com/wp-content/uploads/2019/12/23003006/jamesgosling1642web.jpg",
+   
+      "yearOfBirth": 1995,
+       "facts": {
+     "Empresa": "Google",
+     "category": "Tipado",
+    }
+  },
+  {
+    "id": "Swift",
+    "name": " Chris Lattner y Apple Inc.",
+    "creator": "Swift",
+    "shortDescription": "Swift es un lenguaje de programación desarrollado por Apple para iOS, macOS, watchOS y tvOS.",
+    "description": "Swift es un lenguaje de programación moderno y potente creado por Chris Lattner y desarrollado por Apple Inc. Fue lanzado en 2014 y se ha convertido en el lenguaje principal para el desarrollo de aplicaciones en plataformas de Apple, incluyendo iOS, macOS, watchOS y tvOS. Swift combina la velocidad de los lenguajes de bajo nivel con la seguridad y facilidad de uso de los lenguajes de alto nivel. Su sintaxis clara y concisa lo hace ideal para desarrolladores de todos los niveles, y su compilación rápida lo convierte en una opción popular para el desarrollo ágil de aplicaciones.",
+    "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*m38agDBYMdOScdfq.jpg",
+    "yearOfBirth": 2014,
     "facts": {
-      "yearOfBirth": "1987",
-      "companiesUsingIt": ["Amazon", "Booking", "IMdB"]
-    },
-
+    "Empresa": "Personalizado",
+    "category": "Tipado",
+    }
+  },
+  {
+    "id": "GO",
+    "name": " Robert Griesemer, Rob Pike y Ken Thompson",
+    "creator": "Go",
+    "shortDescription": "Go es un lenguaje de programación desarrollado por Google para la construcción de software escalable y confiable.",
+    "description": "Go, también conocido como Golang, es un lenguaje de programación desarrollado por Robert Griesemer, Rob Pike y Ken Thompson en Google. Lanzado en 2009, Go se destaca por su eficiencia, simplicidad y concurrencia. Diseñado para la construcción de software escalable y confiable, Go es ampliamente utilizado en el desarrollo de aplicaciones de servidor, servicios web, infraestructura de backend y más. Su sintaxis limpia y legible, junto con su sistema de tipos estático y su soporte integrado para concurrencia, lo convierten en una opción popular entre los desarrolladores para proyectos de cualquier escala.",
+    "imageUrl": "https://i.ytimg.com/vi/sln-gJaURzk/maxresdefault.jpg",
+    "yearOfBirth": 2009,
+    "facts": {
+     "Empresa": "Google",
+     "category": "Tipado",
+    }
+  },
+  {
+    "id": "Rust",
+    "name": " Graydon Hoare",
+    "creator": "Rust",
+    "shortDescription": "Rust es un lenguaje de programación de sistemas enfocado en la seguridad y el rendimiento.",
+    "description": "Rust es un lenguaje de programación de sistemas diseñado para ofrecer seguridad, concurrencia y rendimiento. Creado por Graydon Hoare en Mozilla Research, Rust se lanzó en 2010. Se destaca por su sistema de tipos que garantiza la seguridad en tiempo de compilación, eliminando errores comunes como null pointer dereferences y data races. Rust es ideal para el desarrollo de software de alto rendimiento, sistemas operativos, herramientas de compilación y aplicaciones embebidas. Su comunidad activa y su creciente ecosistema de bibliotecas hacen que Rust sea una opción atractiva para proyectos exigentes.",
+    "imageUrl": "https://s3.amazonaws.com/keybase_processed_uploads/58e1d119bdde0f4e702d9e27d0ed2205_200_200.jpg",
+    "yearOfBirth": 2010,
+    "facts": {
+      "Empresa":  "Personalizado",
+      "category": "Tipado",
+    }
+  },
+  {
+    "id": "PHP",
+    "name": " Rasmus Lerdorf",
+    "creator": "PHP",
+    "shortDescription": "PHP es un lenguaje de programación de servidor ampliamente utilizado para el desarrollo web dinámico.",
+    "description": "PHP es un lenguaje de programación de servidor ampliamente utilizado para el desarrollo web dinámico. Creado por Rasmus Lerdorf en 1994, PHP originalmente significaba 'Personal Home Page', pero ahora se conoce como 'Hypertext Preprocessor'. PHP se destaca por su facilidad de integración con HTML, su extensa documentación y su amplia comunidad de desarrolladores y sus diferentes usos. Es utilizado por una variedad de empresas y proyectos para construir sitios web dinámicos, aplicaciones web, sistemas de gestión de contenido (CMS) y más .",
+    "imageUrl": "https://www.virtuozzo.com/company/blog/wp-content/uploads/2013/10/rasmus-lerdorf.png",
+    "yearOfBirth": 1994,
+    "facts": {
+    "Empresa":  "Personalizado",
+    "category": "No tipado",
+    }
   },
   {
     "id": "Lua",
-    "name": "Lua",
-    "shortDescription": "Lua es un lenguaje de programación ligero y versátil, apreciado por su simplicidad y eficiencia.",
-    "description": "Lua es un lenguaje de programación ligero y versátil, apreciado por su simplicidad y eficiencia. Con una rápida ejecución y fácil integración en otros sistemas, Lua se destaca en el desarrollo de scripts, juegos y sistemas embebidos. Su diseño minimalista y sintaxis flexible lo hacen accesible para programadores de todos los niveles. Lua es reconocido por su sólido soporte para la programación orientada a objetos y su capacidad para extender aplicaciones mediante la creación de módulos y bibliotecas personalizadas. Su comunidad activa y amplia documentación hacen de Lua una opción popular en una variedad de proyectos de software.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Lua.jpg",
-
-
-    "creator": "Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes",
+    "name": " Roberto Ierusalimschy, Luiz Henrique de Figueiredo y Waldemar Celes",
+    "creator": "Lua",
+    "shortDescription": "Lua es un lenguaje de programación ligero y potente para la integración y extensión de aplicaciones.",
+    "description": "Lua es un lenguaje de programación ligero y potente diseñado para la integración y extensión de aplicaciones. Creado por Roberto Ierusalimschy, Luiz Henrique de Figueiredo y Waldemar Celes en 1993, Lua se destaca por su simplicidad, eficiencia y versatilidad. Es ampliamente utilizado en diversas áreas, como juegos, aplicaciones embebidas, scripting, automatización y desarrollo web. Lua es conocido por su facilidad de integración con otros lenguajes y su capacidad de extensión mediante la creación de bibliotecas en C es muy amplia.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgNskW4QYX4hBiOPskUUJ6YqNwOABJsPpWbyoeSD8Pn5MA1l_-h_brLYtTUImRPEXVHLc&usqp=CAU",
+    "yearOfBirth": 1993,
     "facts": {
-      "yearOfBirth": "1993",
-      "companiesUsingIt": ["Blizzard Entertainment", "Adobe"]
+     "Empresa":  "Personalizado",
+     "category": "No tipado",
     }
-
-    },
-  {
-    "id": "Dart",
-    "name": "Dart",
-    "shortDescription": "Dart es un lenguaje de programación versátil y moderno, desarrollado por Google, conocido por su eficiencia y facilidad de uso.",
-    "description": "Dart es un lenguaje de programación versátil y moderno, desarrollado por Google, conocido por su eficiencia y facilidad de uso. Diseñado para la creación de aplicaciones móviles, web y de escritorio, Dart ofrece un sistema de tipos fuerte y opciones de compilación tanto a JavaScript como a código nativo. Su sintaxis clara y concisa, junto con su robusto conjunto de bibliotecas, lo convierten en una opción popular entre los desarrolladores. Dart es apreciado por su rendimiento, productividad y capacidad para construir aplicaciones escalables y de alto rendimiento",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Dart.jpg",
-
-
-    "creator": "Google",
-    "facts": {
-      "yearOfBirth": "2011",
-      "companiesUsingIt": "Google",
-    },
-
   },
   {
-    "id": "Elixir",
-    "name": "Elixir",
-    "shortDescription": "Elixir es un lenguaje de programación funcional y concurrente, construido sobre la plataforma de Erlang.",
-    "description": "Elixir es un lenguaje de programación funcional y concurrente, construido sobre la plataforma de Erlang, valorado por su escalabilidad y tolerancia a fallos. Su sintaxis clara y expresiva facilita el desarrollo de sistemas distribuidos y tolerantes a fallos, convirtiéndolo en una opción ideal para aplicaciones en tiempo real. La concurrencia y el paralelismo son pilares fundamentales de Elixir, lo que lo hace perfecto para sistemas que requieren alta disponibilidad y rendimiento.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Elixir.jpg",
-
-
-    "creator": "Jose Valim",
+    "id": "Typescript",
+    "name": " Microsoft",
+    "creator": "TypeScript",
+    "shortDescription": "TypeScript es un superconjunto tipado de JavaScript, desarrollado por Microsoft.",
+    "description": "TypeScript es un superconjunto tipado de JavaScript, desarrollado y mantenido por Microsoft. Introducido en 2012, TypeScript agrega características de tipado estático opcional a JavaScript, lo que ayuda a detectar errores en el tiempo de desarrollo y a mejorar la calidad y la legibilidad del código. TypeScript se compila a JavaScript estándar, lo que significa que se puede ejecutar en cualquier navegador o entorno que admita JavaScript. Es ampliamente utilizado en el desarrollo web y de aplicaciones, especialmente en proyectos de gran escala, donde la seguridad y la mantenibilidad del código son fundamentales.",
+    "imageUrl": "https://static.vecteezy.com/system/resources/previews/021/515/140/non_2x/microsoft-software-brand-logo-symbol-with-name-white-design-illustration-with-black-background-free-vector.jpg",
+    "yearOfBirth": 2012,
     "facts": {
-      "yearOfBirth": "2011",
-      "companiesUsingIt": ["Discord", "Bleacher Report"]
-    },
-    
+     "Empresa": "Google",
+     "category": "Tipado",
+    }
+  },
+  {
+    "id": "Scala",
+    "name": " Martin Odersky",
+    "creator": "Scala",
+    "shortDescription": "Scala es un lenguaje de programación moderno y funcional, creado por Martin Odersky.",
+    "description": "Scala es un lenguaje de programación moderno y funcional, creado por Martin Odersky en 2003. Diseñado para integrar los mejores aspectos de la programación orientada a objetos y la programación funcional, Scala se ejecuta en la máquina virtual de Java (JVM) y es compatible con Java. Se destaca por su sintaxis concisa y expresiva, así como por su énfasis en la inmutabilidad y la programación segura. Scala es utilizado en una variedad de aplicaciones, incluyendo desarrollo web, análisis de datos, procesamiento de lenguaje natural y más.",
+    "imageUrl": "https://codesync.global/uploads/media/speakers/0001/03/b64a21e0dc61815fe95303814a044b1f84ede513.jpeg",
+    "yearOfBirth": 2003,
+    "facts": {
+     "Empresa" : "Personalizado",
+     "category": "Tipado",
+    }
+  },
+  {
+    "id": "Erlang",
+    "name": " Joe Armstrong, Robert Virding y Mike Williams",
+    "creator": "Erlang",
+    "shortDescription": "Erlang es un lenguaje de programación concurrente y tolerante a fallos.",
+    "description": "Erlang es un lenguaje de programación concurrente y tolerante a fallos creado por Joe Armstrong, Robert Virding y Mike Williams en Ericsson a principios de la década de 1980. Diseñado para sistemas distribuidos y altamente disponibles, Erlang se destaca por su modelo de concurrencia basado en actores y su capacidad para manejar fallos de forma transparente. Es utilizado en aplicaciones donde la fiabilidad y la disponibilidad son críticas, como telecomunicaciones, sistemas financieros y sistemas de mensajería instantánea eso es todo.",
+    "imageUrl": "https://i.ytimg.com/vi/rYkI0_ixRDc/maxresdefault.jpg",
+    "yearOfBirth": 1980,
+    "facts": {
+      "Empresa": "Personalizado",
+      "category": "No tipado",
+    }
+  },
+  
+    {
+      "id": "Dart",
+      "name": " Lars Bak y Kasper Lund",
+      "creator": "Dart",
+      "shortDescription": "Dart es un lenguaje de programación desarrollado por Google, diseñado para la creación de aplicaciones web y móviles.",
+      "description": "Dart es un lenguaje de programación desarrollado por Lars Bak y Kasper Lund en Google. Diseñado para la creación de aplicaciones web y móviles, Dart se destaca por su sintaxis simple y familiar, su rendimiento y su capacidad para compilar a JavaScript para su ejecución en navegadores web. Dart es utilizado en Google para desarrollar aplicaciones web, incluyendo aplicaciones internas y productos como AdWords y AdSense. Además, es el lenguaje utilizado para el desarrollo de aplicaciones móviles en Flutter, un framework de Google para crear interfaces de usuario nativas.",
+      "imageUrl": "https://images.hanselminutes.com/podcast/shows/459.jpg",
+      "yearOfBirth": 2011,
+      "facts": {
+        "Empresa": "Google",
+        "category": "No tipado",
+      
+    }
+  },
+  {
+    "id": "Clojure",
+    "name": " Rich Hickey",
+    "creator": "Clojure",
+    "shortDescription": "Clojure es un lenguaje de programación funcional y dinámico para la plataforma Java.",
+    "description": "Clojure es un lenguaje de programación funcional y dinámico creado por Rich Hickey en 2007. Diseñado para ser simple, práctico y compatible con la plataforma Java, Clojure se ejecuta en la máquina virtual de Java (JVM) y se integra perfectamente con la infraestructura existente de Java. Se destaca por su énfasis en la inmutabilidad y la programación funcional, así como por su sistema de gestión de la concurrencia. Clojure es utilizado en una variedad de aplicaciones, incluyendo desarrollo web, análisis de datos, inteligencia artificial y sistemas distribuidos.",
+    "imageUrl": "https://bepsays.com/assets/img/wp-featured/Rich_Hickey1.jpg",
+    "yearOfBirth": 2007,
+    "facts": {
+      "Empresa": "Amazon",
+      "category": "Turing Completo",
+    }
+  },
+  {
+    "id": "Julia",
+    "name": " Jeff Bezanson",
+    "creator": "Julia",
+    "shortDescription": "Julia es un lenguaje de programación de alto rendimiento para computación técnica.",
+    "description": "Julia es un lenguaje de programación de alto rendimiento diseñado para computación técnica y científica. Creado por Jeff Bezanson, Stefan Karpinski, Viral B. Shah y Alan Edelman, Julia combina la velocidad de ejecución de lenguajes compilados como C y Fortran con la facilidad de uso y la flexibilidad de lenguajes dinámicos como Python y Ruby. Julia se destaca por su capacidad para escribir código de alto nivel y expresivo que se ejecuta a velocidades cercanas a las de C. Es utilizado en una variedad de campos, incluyendo matemáticas, ciencia de datos, aprendizaje automático e ingeniería.",
+    "imageUrl": "https://images.yourstory.com/cs/wordpress/2017/05/Techie-Tuesday_Viral-shah.jpg",
+    "yearOfBirth": 2012,
+    "facts": {
+      "Empresa":  "Personalizado",
+      "category": "Turing completo",
+    }
+  },
+  {
+    "id": "R",
+    "name": " Ross Ihaka y Robert Gentleman",
+    "creator": "R",
+    "shortDescription": "R es un lenguaje de programación y entorno de software para análisis estadístico y gráfico.",
+    "description": "R es un lenguaje de programación y entorno de software utilizado para análisis estadístico y gráfico. Fue creado por Ross Ihaka y Robert Gentleman en 1993. R se destaca por su amplia gama de funciones estadísticas y su comunidad activa de usuarios y desarrolladores. Es ampliamente utilizado en campos como la bioinformática, la investigación científica, la economía y más, donde el análisis de datos y la visualización son fundamentales. R es conocido por su flexibilidad y extensibilidad, permitiendo a los usuarios crear y compartir paquetes para realizar tareas específicas de análisis de datos.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ6czRYNAq7mORhljSzSFwecjsSPXJoQn9vfdsN2nE_Q&s",
+    "yearOfBirth": 1993,
+    "facts": {
+      "Empresa": "Google",
+      "category": "No tipado",
+    }
+  },
+  {
+    "id": "TCL",
+    "name": " John Ousterhout",
+    "creator": "Tcl",
+    "shortDescription": "Tcl es un lenguaje de programación interpretado y orientado a la creación de scripts.",
+    "description": "Tcl es un lenguaje de programación interpretado y orientado a la creación de scripts. Fue creado por John Ousterhout en la década de 1980. Tcl se destaca por su simplicidad, flexibilidad y facilidad de integración en otras aplicaciones. Es ampliamente utilizado en aplicaciones de automatización, pruebas de software, desarrollo web y sistemas integrados. Tcl viene con una amplia biblioteca estándar y es conocido por su capacidad para extenderse mediante la creación de paquetes y extensiones personalizadas para cumplir con el cliente.",
+    "imageUrl": "https://alphaxiv.org/static/media/ousterhout.4d7b6a0b3f6e4cb03e8a.png",
+    "yearOfBirth": 1980,
+    "facts": {
+      "Empresa":   "Personalizado",
+      "category": "No tipado",
+    }
+  },
+  {
+    "id": "Smalltalk",
+    "name": " Alan Kay, Dan Ingalls, Adele Goldberg,",
+    "creator": "Smalltalk",
+    "shortDescription": "Smalltalk es un lenguaje de programación orientado a objetos y un entorno de desarrollo integrado.",
+    "description": "Smalltalk es un lenguaje de programación orientado a objetos y un entorno de desarrollo integrado (IDE) creado por Alan Kay, Dan Ingalls, Adele Goldberg, entre otros, en Xerox PARC en la década de 1970. Smalltalk se destaca por su énfasis en la programación orientada a objetos pura, su sistema de reflexión y su entorno de desarrollo interactivo. Es utilizado en el desarrollo de software, enseñanza de programación y prototipado rápido de aplicaciones. Smalltalk influyó en muchos otros lenguajes de programación orientados a objetos y sigue siendo relevante en la actualidad.",
+    "imageUrl": "https://oylenshpeegul.github.io/asopl/Kay_Goldberg_Ingalls-Smalltalk.jpg",
+    "yearOfBirth": 1970,
+    "facts": {
+      "Empresa" : "Personalizado",
+      "category": "No tipado", 
+    }
+  },
+  {
+    "id": "Prolog",
+    "name": " Alain Colmerauer y Robert Kowalski",
+    "creator": "Prolog",
+    "shortDescription": "Prolog es un lenguaje de programación lógica.",
+    "description": "Prolog es un lenguaje de programación lógica creado por Alain Colmerauer y Robert Kowalski en la década de 1970. Se destaca por su capacidad para expresar la lógica de una manera declarativa, permitiendo a los usuarios especificar relaciones y reglas lógicas en lugar de algoritmos imperativos. Prolog se utiliza en una variedad de campos, como inteligencia artificial, procesamiento de lenguaje natural, bases de conocimiento y sistemas expertos. Es especialmente adecuado para problemas de búsqueda y lógica, donde la eficiencia no es una preocupación principal.",
+    "imageUrl": "https://images.slideplayer.com/25/7726760/slides/slide_8.jpg",
+    "yearOfBirth": 1970,
+    "facts": {
+      "Empresa": "Personalizado",
+      "category": "Turing completo",
+    }
+  },
+  {
+    "id": "kotlin",
+    "name": " JetBrains",
+    "creator": "Kotlin",
+    "shortDescription": "Kotlin es un lenguaje de programación moderno y conciso para JVM, Android y navegador.",
+    "description": "Kotlin es un lenguaje de programación moderno y conciso creado por JetBrains. Introducido en 2011, Kotlin es interoperable con Java y se ha convertido en un lenguaje popular para el desarrollo de aplicaciones en la JVM, Android y navegadores. Destacado por su seguridad y expresividad, Kotlin ofrece características avanzadas como la nulabilidad tipo seguro y extensiones de funciones. Su comunidad activa y su creciente adopción hacen de Kotlin una opción preferida para desarrolladores que buscan mejorar la productividad y la calidad del código en sus proyectos.",
+    "imageUrl": "https://static.chollometro.com/threads/raw/default/213759_1/re/1024x1024/qt/60/213759_1.jpg",
+    "yearOfBirth": 2011,
+    "facts": {
+      "Empresa":  "Amazon",
+      "category": "Tipado",
+    }
   },
   {
     "id": "Groovy",
     "name": "Groovy",
-    "shortDescription": "Groovy es un lenguaje de programación dinámico y orientado a objetos diseñado para la plataforma Java.",
-    "description": "Groovy es un lenguaje de programación dinámico y orientado a objetos diseñado para la plataforma Java. Con una sintaxis similar a Java pero menos restrictiva, Groovy ofrece mayor flexibilidad y productividad en el desarrollo de aplicaciones empresariales y web. Su integración perfecta con bibliotecas Java existentes y su capacidad para escribir código conciso y legible lo hacen popular entre los desarrolladores que buscan una alternativa más ágil y dinámica para Java.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Groovy.jpg",
-
-
     "creator": "James Strachan",
+    "shortDescription": "Groovy es un lenguaje de programación dinámico que se ejecuta en la JVM.",
+    "description": "Groovy es un lenguaje de programación dinámico creado por James Strachan en 2003. Basado en Java, Groovy ofrece características como tipado dinámico, sintaxis similar a la de Java y soporte para programación funcional. Se ejecuta en la Máquina Virtual de Java (JVM) y se utiliza para la creación de scripts, desarrollo web y aplicaciones empresariales. Groovy se integra bien con Java y tiene acceso a todas las bibliotecas de Java, lo que facilita la adopción y la migración gradual de aplicaciones existentes.",
+    "imageUrl": "https://pbs.twimg.com/profile_images/1574355348969951233/axiI-_Tt_400x400.jpg",
+    "yearOfBirth": 2003,
     "facts": {
-      "yearOfBirth": "2003",
-      "companiesUsingIt": "Linkedin",
+      "Empresa":  "Personalizado",
+      "category": "No tipado",
     },
-
-  },
-  {
-    "id": "COBOL",
-    "name": "COBOL",
-    "shortDescription": "COBOL (Common Business-Oriented Language) es un lenguaje de programación ampliamente utilizado en aplicaciones comerciales y financieras.",
-    "description": "COBOL (Common Business-Oriented Language) es un lenguaje de programación ampliamente utilizado en aplicaciones comerciales y financieras. A pesar de su antigüedad, COBOL sigue siendo relevante hoy en día, especialmente en sistemas heredados y mainframes. Con una sintaxis estructurada y legible, COBOL se centra en el procesamiento de datos empresariales y la gestión de transacciones, proporcionando un entorno estable y confiable para aplicaciones críticas de negocios.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\COBOL.jpg",
-
-
-    "creator": " Comité de la Conferencia de Organizaciones de Procesamiento de Datos (COPD)",
-    "facts": {
-      "yearOfBirth": "1940",
-      "companiesUsingIt": ["IBM", "Fujitsu"]
-    }
-
-    },
-  {
-    "id": "Prolog",
-    "name": "Prolog",
-    "shortDescription": "Prolog es un lenguaje de programación lógica utilizado principalmente en inteligencia artificial y procesamiento de lenguaje natural. ",
-    "description": "Prolog es un lenguaje de programación lógica utilizado principalmente en inteligencia artificial y procesamiento de lenguaje natural. Basado en la lógica de predicados, Prolog permite expresar relaciones y reglas de manera declarativa, facilitando la resolución de problemas complejos de búsqueda y razonamiento. Su capacidad para inferir hechos y reglas lo hace adecuado para la creación de sistemas expertos y aplicaciones de lógica difusa, convirtiéndolo en una herramienta poderosa para el desarrollo de aplicaciones inteligentes.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Prolog.jpg",
-
-
-    "creator": "Alain Colmerauer, Robert Kowalski",
-    "facts": {
-      "yearOfBirth": "1972",
-      "companiesUsingIt": ["Siemens", "SWI-Prolog Solutions"]
-    },
-
-  },
-  {
-    "id": "Ada",
-    "name": "Ada",
-    "shortDescription": "Ada es un lenguaje de programación estructurado y orientado a objetos, diseñado originalmente para aplicaciones críticas en defensa y aviación. ",
-    "description": "Ada es un lenguaje de programación estructurado y orientado a objetos, diseñado originalmente para aplicaciones críticas en defensa y aviación. Con una sintaxis clara y precisa, Ada se centra en la seguridad, la fiabilidad y el rendimiento, proporcionando un entorno robusto para el desarrollo de sistemas críticos. Su fuerte sistema de tipos y su énfasis en la verificación estática de errores lo hacen adecuado para aplicaciones de misión crítica donde la seguridad y la precisión son fundamentales.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Ada.jpg",
-
-
-    "creator": "Jean Ichbiah por encargo del Departamento de Defensa de los Estados Unidos.",
-    "facts": {
-      "yearOfBirth": "1910",
-      "companiesUsingIt": ["Lockheed Martin", "General Dynamics"]
-    },
-
-  },
-  {
-    "id": "Lisp",
-    "name": "Lisp",
-    "shortDescription": "Lisp es un lenguaje de programación funcional y dinámico,",
-    "description": "Lisp es un lenguaje de programación funcional y dinámico, conocido por su poderoso sistema de macro y su enfoque en la manipulación de listas. Desarrollado en la década de 1950, Lisp ha influido en muchos otros lenguajes de programación y es ampliamente utilizado en inteligencia artificial, procesamiento de lenguaje natural y desarrollo de software científico. Su flexibilidad y expresividad lo convierten en una opción popular para proyectos que requieren alta productividad y adaptabilidad.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Lisp.jpg",
-
-
-    "creator": "John McCarthy",
-    "facts": {
-      "yearOfBirth": "1858",
-      "companiesUsingIt": "Google",
-    },
-
-  },
-  {
-    "id": "COOL (Classroom Object-Oriented Language)",
-    "name": "COOL (Classroom Object-Oriented Language)",
-    "shortDescription": "Cool (Classroom Object-Oriented Language) es un lenguaje de programación diseñado para la enseñanza de conceptos de programación",
-    "description": "Cool (Classroom Object-Oriented Language) es un lenguaje de programación diseñado para la enseñanza de conceptos de programación orientada a objetos. Inspirado en Java, Cool simplifica los conceptos fundamentales de la programación orientada a objetos y proporciona una plataforma para experimentar con conceptos como herencia, polimorfismo y encapsulación. Su sintaxis simple y su enfoque en la enseñanza lo hacen adecuado para estudiantes y educadores que desean aprender o enseñar programación orientada a objetos de manera efectiva.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Cool.jpg",
-
-
-    "creator": "Alex Aiken",
-    "facts": {
-      "yearOfBirth": "1995",
-      "companiesUsingIt": ["Universidad de Stanford"]
-    },
-    
-  },
-  {
-    "id": "Assembler",
-    "name": "Assembler",
-    "shortDescription": "Assembler es un lenguaje de programación de bajo nivel que proporciona una representación simbólica de las instrucciones de máquina.",
-    "description": "Assembler es un lenguaje de programación de bajo nivel utilizado para escribir programas directamente en el lenguaje de máquina de un ordenador. Aunque es complejo y propenso a errores, Assembler ofrece un control preciso sobre el hardware y es necesario para tareas de programación de sistemas y desarrollo de controladores. Su sintaxis específica de la arquitectura y su naturaleza cercana al hardware lo hacen adecuado para programadores con conocimientos avanzados en informática y sistemas embebidos.",
-    "imageUrl": "C:\Users\USUARIO\Documents\Data-Verse\src\images\Assembler.jpg",
-    "imagepath": "C:/Users/USUARIO/Documents/GitHub/Data-Verse/src/images/24A Assembler.jpg",
-
-    
-    "creator": "Maurice Wilkes",
-    "facts": {
-      "yearOfBirth": "1920",
-      "companiesUsingit": ["Intel", "IBM"]
-    },
-    
   }
+  
 ]
