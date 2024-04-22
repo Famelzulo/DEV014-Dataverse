@@ -1,7 +1,8 @@
 export const renderItems = (data) => {
+  //AQUI SE GENERA LOS ELEMENTOS HTML
+
   //console.log(data);
   // Aquí comienza tu código y puedes retornar lo que tu necesites
-
   // <dl itemscope itemtype="Lenguajes de programacion">
   //   <img src="" />
   //   <dt>Nombre:</dt><dd itemprop="name">Phyton</dd>
@@ -19,10 +20,12 @@ export const renderItems = (data) => {
       shortDescription: item.shortDescription,
       creator: item.creator,
       yearOfBirth: item.yearOfBirth,
-      empresa: item.facts.Empresa,
-      category: item.facts.category,
+      empresaName: item.facts ? item.facts.empresaName : null,
+      categoryName: item.facts ? item.facts.categoryName : null,
+      roleName: item.facts ? item.facts.roleName : null,
     }
-  })
+  });
+  
   let blocoItems = ""
   dataset.forEach(item => {
     blocoItems += `
@@ -32,9 +35,10 @@ export const renderItems = (data) => {
             <dd itemprop="select-sort"><p><strong>Nombre:</strong>${item.name}</p></dd>
             <dd itemprop="select-sort"><p><strong>Lenguaje:</strong>:${item.creator}</p></dd>    
             <dd itemprop="select-sort"><p><strong>Año de creacion:</strong> ${item.yearOfBirth}</p></dd>
+            <dd itemprop="select-sort"><p><strong>Empresa:</strong>${item.empresaName}</p></dd>
+            <dd itemprop="select-sort"><p><strong>Categoria:</strong>${item.categoryName}</p></dd>
+            <dd itemprop="select-sort"><p><strong>Area de uso:</strong>${item.roleName}</p></dd>
             <p> <class="languaje__description">${item.shortDescription}</p>
-            <dd itemprop="select-sort"><p><strong>Empresa:</strong>${item.empresa}</p></dd>
-            <dd itemprop="select-sort"><p><strong>Categoria:</strong>${item.category}</p></dd>
             </div>
         </li>
   `

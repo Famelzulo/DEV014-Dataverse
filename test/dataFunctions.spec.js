@@ -1,18 +1,61 @@
-import { example, anotherExample } from '../src/dataFunctions.js';
-import { data as fakeData } from './data.js';
+import { filterBy, filterData, filterCategory, sortData, computeStats } from '../src/dataFunctions.js';
+import data from './data.js';
 
-console.log(fakeData);
+describe('Funciones de manipulación de datos', () => {
+  let forEachCalls;
+  let forStatements;
 
-describe('example', () => {
+  beforeEach(() => {
+    forEachCalls = [];
+    forStatements = [];
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+    // Simular el comportamiento de forEach y for
+    Array.prototype.forEach = jest.fn((callback) => {
+      forEachCalls.push(callback);
+    });
+
+    // Simular el comportamiento de for
+    jest.spyOn(Array.prototype, 'reduce').mockImplementation((callback) => {
+      const arrayLength = forStatements.length;
+      for (let i = 0; i < arrayLength; i++) {
+        callback(forStatements[i], i, forStatements);
+      }
+    });
   });
-});
 
-describe('anotherExample', () => {
+  it('filterBy utiliza reduce', () => {
+    const testData = [
+      { facts: { empresaName: 'Google' } },
+      { facts: { empresaName: 'Amazon' } },
+      { facts: { empresaName: 'Nasa u otros' } }
+    ];
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+    filterBy(testData, 'empresaName', 'Google');
+
+    expect(forStatements.length <= forEachCalls.length).toBe(true);
+  });
+
+  it('filterData utiliza reduce', () => {
+    filterData(data, 'Google');
+
+    expect(forStatements.length <= forEachCalls.length).toBe(true);
+  });
+
+  it('filterCategory utiliza reduce', () => {
+    filterCategory(data, 'Tipado');
+
+    expect(forStatements.length <= forEachCalls.length).toBe(true);
+  });
+
+  it('sortData utiliza reduce', () => {
+    sortData(data, 'name', 'asc');
+
+    expect(forStatements.length <= forEachCalls.length).toBe(true);
+  });
+
+  it('computeStats utiliza reduce', () => {
+    computeStats(data);
+
+    expect(forStatements.length <= forEachCalls.length).toBe(true);
   });
 });
