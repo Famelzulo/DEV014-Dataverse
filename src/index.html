@@ -17,87 +17,59 @@
     <h1>
       Mentes de la Programacion
     </h1>
-
   </header>
-<!------------------------------------------------------------------------------------------------------------------------------------------------>
-  <img src="./images/laptop.svg"/>
-    
-  
-
-  <p1><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-keyboard" position="center" width="52"
-      height="52" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round"
-      stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M2 6m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z" />
-      <path d="M6 10l0 .01" />
-      <path d="M10 10l0 .01" />
-      <path d="M14 10l0 .01" />
-      <path d="M18 10l0 .01" />
-      <path d="M6 14l0 .01" />
-      <path d="M18 14l0 .01" />
-      <path d="M10 14l4 .01" />
-    </svg></p1>
-
-  <p3><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-recharging" width="52" height="52"
-      viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7.038 4.5a9 9 0 0 0 -2.495 2.47" />
-      <path d="M3.186 10.209a9 9 0 0 0 0 3.508" />
-      <path d="M4.5 16.962a9 9 0 0 0 2.47 2.495" />
-      <path d="M10.209 20.814a9 9 0 0 0 3.5 0" />
-      <path d="M16.962 19.5a9 9 0 0 0 2.495 -2.47" />
-      <path d="M20.814 13.791a9 9 0 0 0 0 -3.508" />
-      <path d="M19.5 7.038a9 9 0 0 0 -2.47 -2.495" />
-      <path d="M13.791 3.186a9 9 0 0 0 -3.508 -.02" />
-      <path d="M12 8l-2 4h4l-2 4" />
-      <path d="M12 21a9 9 0 0 0 0 -18" />
-    </svg></p3>
-<!---------------------------------------------------------------------------------------------------------------------------------------------------->
-
-<div class="marco">
+  <!------------------------------------------------------------------------------------------------------------------------------------------------>
+  <img src="./images/laptop.svg" />
+  <img src="./images/keyboard.svg" />
+  <img src="./images/tabler.svg" />
+  <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+  <div class="marco">
     <label for="filterSelect">Filtrar por:</label>
-    <select id="filterSelect">
+    <select id="filterSelect" name="filter">
       <option value=" "> </option>
       <option value="Google">Google</option>
       <option value="Amazon">Amazon</option>
-      <option value="Personalizado">Personalizado</option>
+      <option value="Nasa u otros">Nasa u otros</option>
     </select>
-    
 
-
-    <label for="filterSelect2">Categorizar  por:</label>
-    <select id="filterSelect2">
+    <label for="filterSelect2">Categorizar por:</label>
+    <select id="filterSelect2" name="category">
       <option value=" "></option>
       <option value="Tipado">Tipado</option>
       <option value="No tipado">No tipado</option>
       <option value="Turing completo">Turing completo</option>
     </select>
-    
-    <label for="filterSelect3">OrdeNar por nombre :</label>
-    <select id="filterSelect3">
+
+    <label for="filterSelect3">Ordenar por nombre :</label>
+    <select id="filterSelect3" name="sort">
       <option value=" "></option>
       <option value="asc">Ascendente</option>
       <option value="desc">Descendente</option>
     </select>
-    
+
+    <div class="container">
+      <button id="calculateButton">Calcular Estadísticas</button>
+      <div id="stats"></div>
+    </div>
+
+    <div class="container">
+      <button type="button" id="Button-clear">Limpiar Busqueda</button>
+    </div>
+
     <div id="filteredResults"></div>
   </div>
-<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+  <!----------------------------------------------------------------------------------------------------------------------------------------------------->
   <div class="flex-container">
   </div>
 
-
   <div>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   </div>
-
-<!------------------------------------------------------------------------------------------------------------------------------------------------------->
-<div id="root"></div>
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <div id="root"></div>
   <div id="data">
-
- </div>
- <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+  </div>
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
   <footer>ArtService</footer>
   <script src="main.js" type="module"></script>
 
