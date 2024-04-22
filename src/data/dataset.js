@@ -3,13 +3,14 @@ export default [
     "id": "python",
     "name": "Guido Van Rossum",
     "creator": "Python",
-    "yearOfBirth": 1956,
+    "yearOfBirth": 1991,
     "shortDescription": "Guido van Rossum es un informático holandés, creador del lenguaje de programación Python y defensor del código abierto.",
     "description": "Python es un lenguaje de programación de alto nivel, multipropósito y de código abierto, creado por Guido van Rossum en 1991. Se destaca por su sintaxis clara y legible, lo que lo hace ideal tanto para principiantes como para programadores experimentados. Python es conocido por su enfoque en la legibilidad del código y su filosofía de \"baterías incluidas\", que significa que viene con una amplia biblioteca estándar que facilita el desarrollo de una variedad de aplicaciones y proyectos. Es ampliamente utilizado en desarrollo web, análisis de datos, inteligencia artificial, aprendizaje automático y más.",
     "imageUrl": "https://4.bp.blogspot.com/-_zzsmq_HXhA/VqwJGri_AqI/AAAAAAAAskI/lEpb1q3cvgs/s1600/01-31%2BEfemerides%2Bde%2BTecnologia%2BGuido_van_Rossum.jpg",
     "facts": {
-     "Empresa": "Google",
-     "category": "No tipado",
+      "empresaName": "Google",
+      "categoryName": "No tipado",
+      "roleName": "backend",
 
     }
   },
@@ -19,11 +20,12 @@ export default [
     "creator": " JavaScript ",
     "shortDescription": "JavaScript es un lenguaje de programación ampliamente utilizado para desarrollo web y más, creado por Brendan Eich.",
     "description": "JavaScript es un lenguaje de programación de alto nivel, interpretado y de scripting. Es ampliamente utilizado para el desarrollo web, permitiendo la interactividad en páginas web a través de la manipulación del DOM y la gestión de eventos. Creado por Brendan Eich en 1995 mientras trabajaba en Netscape Communications Corporation, JavaScript ha evolucionado para ser un lenguaje de programación versátil, utilizado no solo en el desarrollo web, sino también en la creación de aplicaciones de servidor, aplicaciones móviles y más.",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyJHoOW-MkaXtyrp5tvSiwiMEXz0g8x04HmRLjJVB9sA&s",
-     "yearOfBirth": 1995,
-     "facts": {
-     "Empresa": "Google",
-     "category": "No tipado",
+    "imageUrl": "https://cdn.facesofopensource.com/wp-content/uploads/2017/07/23193713/brendaneich25607.web_.jpg",
+    "yearOfBirth": 1995,
+    "facts": {
+      "empresaName": "Google",
+      "categoryName": "No tipado",
+      "roleName": "frontend",
     }
   },
   {
@@ -34,9 +36,10 @@ export default [
     "description": "Ruby es un lenguaje de programación dinámico, interpretado y de código abierto, conocido por su simplicidad y productividad. Creado por Yukihiro Matsumoto (Matz) en 1995, Ruby se inspiró en lenguajes como Perl, Smalltalk, Lisp y Python. Destaca por su sintaxis elegante y legible, así como por su enfoque en la felicidad del programador. Ruby es ampliamente utilizado en el desarrollo web, gracias a frameworks como Ruby on Rails, así como en una variedad de otros campos, incluyendo automatización, scripting y análisis de datos.",
     "imageUrl": "https://i.pinimg.com/originals/26/55/e5/2655e59401961d64f2746ac3bc5463bf.jpg",
     "yearOfBirth": 1995,
-      "facts": {
-   "Empresa":  "Personalizado",
-   "category": "No tipado",
+    "facts": {
+      "empresaName": "Nasa u otros",
+      "categoryName": "No tipado",
+      "roleName": "backend",
     }
   },
   {
@@ -45,43 +48,46 @@ export default [
     "creator": "Perl ",
     "shortDescription": "Perl es un lenguaje de programación interpretado, versátil y poderoso, creado por Larry Wall.",
     "description": "Perl es un lenguaje de programación interpretado, versátil y poderoso, diseñado para facilitar la manipulación de texto y la automatización de tareas comunes en sistemas Unix. Creado por Larry Wall en 1987, Perl ha evolucionado para convertirse en un lenguaje ampliamente utilizado en una variedad de aplicaciones, incluyendo desarrollo web, administración de sistemas, análisis de datos y más. Con una rica biblioteca de módulos y una sintaxis flexible, Perl permite a los desarrolladores escribir código conciso y expresivo para una amplia gama de problemas.",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxes9TpANI4JyAnx4JSYEO_yZsJwQFPdjrn_HTNHJXDQ&s",
-    
-      "yearOfBirth": 1987,
-      "facts": {
-       "Empresa": "Amazon",
-       "category": "No tipado",
+    "imageUrl": "https://cdn.facesofopensource.com/wp-content/uploads/2017/03/19223329/larrywall.faces23220.web_.jpg",
+
+    "yearOfBirth": 1987,
+    "facts": {
+      "empresaName": "Amazon",
+      "categoryName": "No tipado",
+      "roleName": "backend",
     }
   },
   {
     "id": "C",
-    "name":  ["Dennis Ritchie", "Brian Kernighan"],
+    "name": "Dennis Ritchie y Brian Kernighan",
     "creator": " C ",
     "shortDescription": "C es un lenguaje de programación de bajo nivel y ampliamente utilizado, creado por Dennis Ritchie y Brian Kernighan.",
     "description": "C es un lenguaje de programación de propósito general, imperativo, estructurado y de bajo nivel. Creado por Dennis Ritchie y Brian Kernighan en los laboratorios Bell en 1972, C se ha convertido en uno de los lenguajes de programación más influyentes de la historia. Es ampliamente utilizado en el desarrollo de sistemas operativos, compiladores, dispositivos embebidos y aplicaciones de alto rendimiento debido a su eficiencia y control directo sobre el hardware. C es conocido por su sintaxis concisa y potente, así como por su capacidad para acceder y manipular directamente la memoria del sistema.",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ken_Thompson_and_Dennis_Ritchie--1973.jpg/200px-Ken_Thompson_and_Dennis_Ritchie--1973.jpg",
-    
-      "yearOfBirth": 1972,
-      "facts": {
-    "Empresa": "Amazon",
-    "category": "Turing completo" ,
+
+    "yearOfBirth": 1972,
+    "facts": {
+      "empresaName": "Amazon",
+      "categoryName": "Turing completo",
+      "roleName": "backend",
     }
   },
   {
-    "id": "C ++",
+    "id": "Cplusplus",
     "name": " Bjarne Stroustrup",
-    "creator": " C++",
+    "creator": " C ++",
     "shortDescription": "C++ es un lenguaje de programación de propósito general y de alto nivel, creado por Bjarne Stroustrup.",
     "description": "C++ es un lenguaje de programación de propósito general y de alto nivel, derivado del lenguaje C. Fue creado por Bjarne Stroustrup en 1983 como una extensión del lenguaje C, añadiendo características de programación orientada a objetos y otros paradigmas de programación. C++ es ampliamente utilizado en el desarrollo de sistemas, software de aplicaciones, videojuegos, software de sistemas embebidos y mucho más. Con su potencia y flexibilidad, C++ permite a los desarrolladores escribir código eficiente y portátil para una amplia gama de aplicaciones.",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUPw3RamUyuUJOvJN7-YXJvFfVWL3g304ZG516EhIZw&s",
-    
-      "yearOfBirth": 1983,
-      "facts": {
-      "Empresa": "Amazon",
-      "category": "Turing completo",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk-L6YCqTHdi5lIv9CzUdnrRtZBZAw_p57P93Z3wTmEo_qyEpXZEo_FOYF4kWQKrBjxUidIaenY1fGhYqWqp5eQpyw6Gnr3QZjMZKO2OIArWSN5u_Xs7PlsKzAdIwyobUTt-oSBZ08Olo/s1600/12-30+Efemerides+de+Tecnologia+Bjarne+Stroustrup.jpg",
+
+    "yearOfBirth": 1983,
+    "facts": {
+      "empresaName": "Amazon",
+      "categoryName": "Turing completo",
+      "roleName": "backend",
     }
   },
-  
+
   {
     "id": "Java",
     "name": " James Gosling",
@@ -89,11 +95,12 @@ export default [
     "shortDescription": "Java es un lenguaje de programación de propósito general y orientado a objetos, creado por James Gosling.",
     "description": "Java es un lenguaje de programación de propósito general, orientado a objetos y diseñado para tener la menor cantidad de dependencias de implementación posibles. Fue creado por James Gosling en Sun Microsystems en 1995. Java se destaca por su portabilidad, ya que el código escrito en Java se puede ejecutar en cualquier plataforma que tenga una máquina virtual Java (JVM) instalada. Es ampliamente utilizado en el desarrollo de aplicaciones empresariales, desarrollo de aplicaciones móviles (Android), desarrollo web, entre otros mas.",
     "imageUrl": "https://cdn.facesofopensource.com/wp-content/uploads/2019/12/23003006/jamesgosling1642web.jpg",
-   
-      "yearOfBirth": 1995,
-       "facts": {
-     "Empresa": "Google",
-     "category": "Tipado",
+
+    "yearOfBirth": 1995,
+    "facts": {
+      "empresaName": "Google",
+      "categoryName": "Tipado",
+      "roleName": "backend",
     }
   },
   {
@@ -105,8 +112,10 @@ export default [
     "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*m38agDBYMdOScdfq.jpg",
     "yearOfBirth": 2014,
     "facts": {
-    "Empresa": "Personalizado",
-    "category": "Tipado",
+      "empresaName": "Nasa u otros",
+      "categoryName": "Tipado",
+      "roleName": "frontend",
+
     }
   },
   {
@@ -118,8 +127,9 @@ export default [
     "imageUrl": "https://i.ytimg.com/vi/sln-gJaURzk/maxresdefault.jpg",
     "yearOfBirth": 2009,
     "facts": {
-     "Empresa": "Google",
-     "category": "Tipado",
+      "empresaName": "Google",
+      "categoryName": "Tipado",
+      "roleName": "backend",
     }
   },
   {
@@ -131,8 +141,9 @@ export default [
     "imageUrl": "https://s3.amazonaws.com/keybase_processed_uploads/58e1d119bdde0f4e702d9e27d0ed2205_200_200.jpg",
     "yearOfBirth": 2010,
     "facts": {
-      "Empresa":  "Personalizado",
-      "category": "Tipado",
+      "empresaName": "Nasa u otros",
+      "categoryName": "Tipado",
+      "roleName": "backend",
     }
   },
   {
@@ -144,8 +155,9 @@ export default [
     "imageUrl": "https://www.virtuozzo.com/company/blog/wp-content/uploads/2013/10/rasmus-lerdorf.png",
     "yearOfBirth": 1994,
     "facts": {
-    "Empresa":  "Personalizado",
-    "category": "No tipado",
+      "empresaName": "Nasa u otros",
+      "categoryName": "No tipado",
+      "roleName": "backend",
     }
   },
   {
@@ -154,11 +166,12 @@ export default [
     "creator": "Lua",
     "shortDescription": "Lua es un lenguaje de programación ligero y potente para la integración y extensión de aplicaciones.",
     "description": "Lua es un lenguaje de programación ligero y potente diseñado para la integración y extensión de aplicaciones. Creado por Roberto Ierusalimschy, Luiz Henrique de Figueiredo y Waldemar Celes en 1993, Lua se destaca por su simplicidad, eficiencia y versatilidad. Es ampliamente utilizado en diversas áreas, como juegos, aplicaciones embebidas, scripting, automatización y desarrollo web. Lua es conocido por su facilidad de integración con otros lenguajes y su capacidad de extensión mediante la creación de bibliotecas en C es muy amplia.",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgNskW4QYX4hBiOPskUUJ6YqNwOABJsPpWbyoeSD8Pn5MA1l_-h_brLYtTUImRPEXVHLc&usqp=CAU",
+    "imageUrl": "https://pbs.twimg.com/media/FcoydMbWQAEBM9r.jpg",
     "yearOfBirth": 1993,
     "facts": {
-     "Empresa":  "Personalizado",
-     "category": "No tipado",
+      "empresaName": "Nasa u otros",
+      "categoryName": "No tipado",
+      "roleName": "backend",
     }
   },
   {
@@ -170,8 +183,9 @@ export default [
     "imageUrl": "https://static.vecteezy.com/system/resources/previews/021/515/140/non_2x/microsoft-software-brand-logo-symbol-with-name-white-design-illustration-with-black-background-free-vector.jpg",
     "yearOfBirth": 2012,
     "facts": {
-     "Empresa": "Google",
-     "category": "Tipado",
+      "empresaName": "Google",
+      "categoryName": "Tipado",
+      "roleName": "frontend",
     }
   },
   {
@@ -183,8 +197,9 @@ export default [
     "imageUrl": "https://codesync.global/uploads/media/speakers/0001/03/b64a21e0dc61815fe95303814a044b1f84ede513.jpeg",
     "yearOfBirth": 2003,
     "facts": {
-     "Empresa" : "Personalizado",
-     "category": "Tipado",
+      "empresaName": "Nasa u otros",
+      "categoryName": "Tipado",
+      "roleName": "frontend",
     }
   },
   {
@@ -196,23 +211,25 @@ export default [
     "imageUrl": "https://i.ytimg.com/vi/rYkI0_ixRDc/maxresdefault.jpg",
     "yearOfBirth": 1980,
     "facts": {
-      "Empresa": "Personalizado",
-      "category": "No tipado",
+      "empresaName": "",
+      "categoryName": "No tipado",
+      "roleName": "backend",
     }
   },
-  
-    {
-      "id": "Dart",
-      "name": " Lars Bak y Kasper Lund",
-      "creator": "Dart",
-      "shortDescription": "Dart es un lenguaje de programación desarrollado por Google, diseñado para la creación de aplicaciones web y móviles.",
-      "description": "Dart es un lenguaje de programación desarrollado por Lars Bak y Kasper Lund en Google. Diseñado para la creación de aplicaciones web y móviles, Dart se destaca por su sintaxis simple y familiar, su rendimiento y su capacidad para compilar a JavaScript para su ejecución en navegadores web. Dart es utilizado en Google para desarrollar aplicaciones web, incluyendo aplicaciones internas y productos como AdWords y AdSense. Además, es el lenguaje utilizado para el desarrollo de aplicaciones móviles en Flutter, un framework de Google para crear interfaces de usuario nativas.",
-      "imageUrl": "https://images.hanselminutes.com/podcast/shows/459.jpg",
-      "yearOfBirth": 2011,
-      "facts": {
-        "Empresa": "Google",
-        "category": "No tipado",
-      
+
+  {
+    "id": "Dart",
+    "name": " Lars Bak y Kasper Lund",
+    "creator": "Dart",
+    "shortDescription": "Dart es un lenguaje de programación desarrollado por Google, diseñado para la creación de aplicaciones web y móviles.",
+    "description": "Dart es un lenguaje de programación desarrollado por Lars Bak y Kasper Lund en Google. Diseñado para la creación de aplicaciones web y móviles, Dart se destaca por su sintaxis simple y familiar, su rendimiento y su capacidad para compilar a JavaScript para su ejecución en navegadores web. Dart es utilizado en Google para desarrollar aplicaciones web, incluyendo aplicaciones internas y productos como AdWords y AdSense. Además, es el lenguaje utilizado para el desarrollo de aplicaciones móviles en Flutter, un framework de Google para crear interfaces de usuario nativas.",
+    "imageUrl": "https://images.hanselminutes.com/podcast/shows/459.jpg",
+    "yearOfBirth": 2011,
+    "facts": {
+      "empresaName": "Google",
+      "categoryName": "No tipado",
+      "roleName": "frontend",
+
     }
   },
   {
@@ -224,8 +241,9 @@ export default [
     "imageUrl": "https://bepsays.com/assets/img/wp-featured/Rich_Hickey1.jpg",
     "yearOfBirth": 2007,
     "facts": {
-      "Empresa": "Amazon",
-      "category": "Turing Completo",
+      "empresaName": "Amazon",
+      "categoryName": "Turing Completo",
+      "roleName": "backend",
     }
   },
   {
@@ -237,8 +255,9 @@ export default [
     "imageUrl": "https://images.yourstory.com/cs/wordpress/2017/05/Techie-Tuesday_Viral-shah.jpg",
     "yearOfBirth": 2012,
     "facts": {
-      "Empresa":  "Personalizado",
-      "category": "Turing completo",
+      "empresaName": "Nasa u otros",
+      "categoryName": "Turing completo",
+      "roleName": "backend",
     }
   },
   {
@@ -247,11 +266,12 @@ export default [
     "creator": "R",
     "shortDescription": "R es un lenguaje de programación y entorno de software para análisis estadístico y gráfico.",
     "description": "R es un lenguaje de programación y entorno de software utilizado para análisis estadístico y gráfico. Fue creado por Ross Ihaka y Robert Gentleman en 1993. R se destaca por su amplia gama de funciones estadísticas y su comunidad activa de usuarios y desarrolladores. Es ampliamente utilizado en campos como la bioinformática, la investigación científica, la economía y más, donde el análisis de datos y la visualización son fundamentales. R es conocido por su flexibilidad y extensibilidad, permitiendo a los usuarios crear y compartir paquetes para realizar tareas específicas de análisis de datos.",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ6czRYNAq7mORhljSzSFwecjsSPXJoQn9vfdsN2nE_Q&s",
+    "imageUrl": "https://uploads-ssl.webflow.com/62d6123bb4338713155c1266/63a530a9ed5955b7781d9f2e_rr.jpeg",
     "yearOfBirth": 1993,
     "facts": {
-      "Empresa": "Google",
-      "category": "No tipado",
+      "empresaName": "Google",
+      "categoryName": "No tipado",
+      "roleName": "backend",
     }
   },
   {
@@ -263,8 +283,9 @@ export default [
     "imageUrl": "https://alphaxiv.org/static/media/ousterhout.4d7b6a0b3f6e4cb03e8a.png",
     "yearOfBirth": 1980,
     "facts": {
-      "Empresa":   "Personalizado",
-      "category": "No tipado",
+      "empresaName": "Nasa u otros",
+      "categoryName": "No tipado",
+      "roleName": "frontend",
     }
   },
   {
@@ -276,8 +297,9 @@ export default [
     "imageUrl": "https://oylenshpeegul.github.io/asopl/Kay_Goldberg_Ingalls-Smalltalk.jpg",
     "yearOfBirth": 1970,
     "facts": {
-      "Empresa" : "Personalizado",
-      "category": "No tipado", 
+      "empresaName": "Nasa u otros",
+      "categoryName": "No tipado",
+      "roleName": "frontend",
     }
   },
   {
@@ -289,8 +311,9 @@ export default [
     "imageUrl": "https://images.slideplayer.com/25/7726760/slides/slide_8.jpg",
     "yearOfBirth": 1970,
     "facts": {
-      "Empresa": "Personalizado",
-      "category": "Turing completo",
+      "empresaName": "Nasa u otros",
+      "categoryName": "Turing completo",
+      "roleName": "frontend",
     }
   },
   {
@@ -302,8 +325,9 @@ export default [
     "imageUrl": "https://static.chollometro.com/threads/raw/default/213759_1/re/1024x1024/qt/60/213759_1.jpg",
     "yearOfBirth": 2011,
     "facts": {
-      "Empresa":  "Amazon",
-      "category": "Tipado",
+      "empresaName": "Amazon",
+      "categoryName": "Tipado",
+      "roleName": "frontend",
     }
   },
   {
@@ -315,9 +339,10 @@ export default [
     "imageUrl": "https://pbs.twimg.com/profile_images/1574355348969951233/axiI-_Tt_400x400.jpg",
     "yearOfBirth": 2003,
     "facts": {
-      "Empresa":  "Personalizado",
-      "category": "No tipado",
+      "empresaName": "Nasa u otros",
+      "categoryName": "No tipado",
+      "roleName": "backend",
     },
   }
-  
+
 ]
