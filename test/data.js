@@ -2,7 +2,6 @@
 // al menos debe tener uno que se llame "data"
 
 export const data = [{
-
   "id": "python",
   "name": "Guido Van Rossum",
   "creator": "Python",
@@ -40,11 +39,10 @@ export const data = [{
   "imageUrl": "https://i.pinimg.com/originals/26/55/e5/2655e59401961d64f2746ac3bc5463bf.jpg",
   "yearOfBirth": 1995,
   "facts": {
-    "empresaName": "Personalizado",
+    "empresaName": "Nasa u otros",
     "categoryName": "No tipado",
     "roleName": "backend",
   }
 },
 
 ];
-

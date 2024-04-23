@@ -211,7 +211,7 @@ export default [
     "imageUrl": "https://i.ytimg.com/vi/rYkI0_ixRDc/maxresdefault.jpg",
     "yearOfBirth": 1980,
     "facts": {
-      "empresaName": "",
+      "empresaName": "Nasa u otros",
       "categoryName": "No tipado",
       "roleName": "backend",
     }

@@ -50,6 +50,6 @@
     "testEnvironment": "jsdom"
   },
   "dependencies": {
-    "playwright": "^1.42.1"
+    "playwright": "^1.43.1"
   }
 }
