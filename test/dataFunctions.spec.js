@@ -1,61 +1,39 @@
-import { filterBy, filterData, filterCategory, sortData, computeStats } from '../src/dataFunctions.js';
-import data from './data.js';
+import { filterBy, filterData, filterCategory, computeStats } from './../src/dataFunctions.js';
+import { data } from './data.js';
 
 describe('Funciones de manipulación de datos', () => {
-  let forEachCalls;
-  let forStatements;
-
-  beforeEach(() => {
-    forEachCalls = [];
-    forStatements = [];
-
-    // Simular el comportamiento de forEach y for
-    Array.prototype.forEach = jest.fn((callback) => {
-      forEachCalls.push(callback);
-    });
-
-    // Simular el comportamiento de for
-    jest.spyOn(Array.prototype, 'reduce').mockImplementation((callback) => {
-      const arrayLength = forStatements.length;
-      for (let i = 0; i < arrayLength; i++) {
-        callback(forStatements[i], i, forStatements);
-      }
-    });
+  // Test para la función filterBy
+  it('filterBy filtra correctamente los datos por empresaName', () => {
+    const result = filterBy(data, 'empresaName', 'Google');
+    expect(result.length).toBe(2); // Debería haber dos lenguajes asociados con la empresa "Google"
   });
 
-  it('filterBy utiliza reduce', () => {
-    const testData = [
-      { facts: { empresaName: 'Google' } },
-      { facts: { empresaName: 'Amazon' } },
-      { facts: { empresaName: 'Nasa u otros' } }
-    ];
+  // Test para la función filterData
+  it('filterData filtra correctamente los datos según el valor proporcionado', () => {
+    // Probando con un valor existente ('Google')
+    const result1 = filterData(data, 'Google');
+    expect(result1.length).toBe(2); // Debería haber dos lenguajes asociados con la empresa "Google"
 
-    filterBy(testData, 'empresaName', 'Google');
-
-    expect(forStatements.length <= forEachCalls.length).toBe(true);
+    // Probando con un valor vacío
+    const result2 = filterData(data, '');
+    expect(result2.length).toBe(data.length); // Debería devolver todos los datos sin filtrar
   });
 
-  it('filterData utiliza reduce', () => {
-    filterData(data, 'Google');
+  // Test para la función filterCategory
+  it('filterCategory filtra correctamente los datos según la categoría proporcionada', () => {
+    // Probando con una categoría existente ('No tipado')
+    const result1 = filterCategory(data, 'No tipado');
+    expect(result1.length).toBe(3); // Debería haber tres lenguajes asociados con la categoría "No tipado"
 
-    expect(forStatements.length <= forEachCalls.length).toBe(true);
+    // Probando con un valor vacío
+    const result2 = filterCategory(data, '');
+    expect(result2.length).toBe(data.length); // Debería devolver todos los datos sin filtrar
   });
 
-  it('filterCategory utiliza reduce', () => {
-    filterCategory(data, 'Tipado');
-
-    expect(forStatements.length <= forEachCalls.length).toBe(true);
-  });
-
-  it('sortData utiliza reduce', () => {
-    sortData(data, 'name', 'asc');
-
-    expect(forStatements.length <= forEachCalls.length).toBe(true);
-  });
-
-  it('computeStats utiliza reduce', () => {
-    computeStats(data);
-
-    expect(forStatements.length <= forEachCalls.length).toBe(true);
+  // Test para la función computeStats
+  it('computeStats calcula correctamente los porcentajes de lenguajes backend y frontend', () => {
+    const stats = computeStats(data);
+    expect(stats.backendPercentage).toBe('66.67'); // Debería ser 66.67%
+    expect(stats.frontendPercentage).toBe('33.33'); // Debería ser 33.33%
   });
 });
