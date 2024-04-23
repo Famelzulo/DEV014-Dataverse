@@ -5,6 +5,7 @@ export function filterBy(data, key, value) {
 }
 
 export function filterData(data, value) {
+  
   console.log(data, value);
   if (value === 'Google' || value === 'Amazon' || value === 'Nasa u otros') {
     return filterBy(data, 'empresaName', value);
@@ -87,6 +88,7 @@ export function computeStats(data) {
   // Calcular los porcentajes
   const backendPercentage = (backendCount / totalCount) * 100;
   const frontendPercentage = (frontendCount / totalCount) * 100;
+  const totaldata = data.reduce(acc => acc +1,0)
 
   // Retornar los resultados
   return {
