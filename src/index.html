@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <title>Lenguajes de Programacion</title>
   <link rel="stylesheet" href="style.css" />
-
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Special+Elite&display=swap"
+    rel="stylesheet">
 </head>
 <!----------------------------------------------------------------------------------------------------------------------------------------------->
 <body class="body">
@@ -21,38 +22,38 @@
   <!---------------------------------------------------------------------------------------------------------------------------------------------------->
   <div class="marco">
     <label for="filterSelect">Filtrar por:</label>
-    <select id="filterSelect" name="filter">
-      <option value=" "> </option>
-      <option value="Google">Google</option>
-      <option value="Amazon">Amazon</option>
-      <option value="Nasa u otros">Nasa u otros</option>
+    <select data-testid="select-filter" name="filter">
+        <option value=" "></option>
+        <option value="Google">Google</option>
+        <option value="Amazon">Amazon</option>
+        <option value="Nasa u otros">Nasa u otros</option>
     </select>
-
+    
     <label for="filterSelect2">Categorizar por:</label>
-    <select id="filterSelect2" name="category">
-      <option value=" "></option>
-      <option value="Tipado">Tipado</option>
-      <option value="No tipado">No tipado</option>
-      <option value="Turing completo">Turing completo</option>
+    <select data-testid="select-sort2" name="category">
+        <option value=" "></option>
+        <option value="Tipado">Tipado</option>
+        <option value="No tipado">No tipado</option>
+        <option value="Turing completo">Turing completo</option>
     </select>
-
-    <label for="filterSelect3">Ordenar por nombre :</label>
-    <select id="filterSelect3" name="sort">
-      <option value=" "></option>
-      <option value="asc">Ascendente</option>
-      <option value="desc">Descendente</option>
+    
+    <label for="filterSelect3">Ordenar por nombre:</label>
+    <select data-testid="select-sort" name="sort">
+        <option value=" "></option>
+        <option value="asc">Ascendente</option>
+        <option value="desc">Descendente</option>
     </select>
+    
+    <button data-testid="calculateButton">Calcular</button>
+    <div data-testid="statsContainer"></div>
 
-    <div class="container">
-      <button id="calculateButton">Calcular Estadísticas</button>
-      <div id="stats"></div>
-    </div>
 
-    <div class="container">
-      <button type="button" id="Button-clear">Limpiar Busqueda</button>
-    </div>
+    <button data-testid="button-clear">Limpiar</button>
+    
+</div>
 
-    <div id="filteredResults"></div>
+
+    <div id="filteredResults">
   </div>
   <!----------------------------------------------------------------------------------------------------------------------------------------------------->
   <div class="flex-container">

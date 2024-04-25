@@ -1,46 +1,89 @@
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
-import { filterData, filterCategory, sortData, computeStats, reset } from './dataFunctions.js'
+import { filterData, filterCategory, sortData, computeStats, filterBy } from './dataFunctions.js'
 
 const root = document.querySelector("#root");
 root.appendChild(renderItems(data));
 
-const selectElement = document.querySelector('#filterSelect');
-const selectElement2 = document.querySelector('#filterSelect2');
-const selectElement3 = document.querySelector('#filterSelect3');
-const computeButton = document.querySelector('#calculateButton');
-const resetButton = document.querySelector('#Button-clear');
+const selectElement = document.querySelector('[data-testid="select-filter"]');
+const selectElement2 = document.querySelector('[data-testid="select-sort2"]');
+const selectElement3 = document.querySelector('[data-testid="select-sort"]');
+const computeButton = document.querySelector('[data-testid="calculateButton"]');
+const resetButton = document.querySelector('[data-testid="button-clear"]');
 
+// Tu lógica de manipulación de eventos y otros procesos aquí...
 
+// variables de operacion
+let primerFiltro = "";
+let segundoFiltro = "";
+let orderCriteria = "";
+let clonedData = data;
 
-selectElement.addEventListener("change", function(event) {
-  console.log(event.target.value);
+selectElement.addEventListener("change", function (event) {
+  //console.log(event.target.value);
   root.innerHTML = '';
-  root.appendChild(renderItems(filterData(data, event.target.value)));
+  primerFiltro = event.target.value;
+  //console.log("primer filtro", primerFiltro);
+  refreshItems(clonedData);
+  // root.appendChild(renderItems(filterData(data, filterBy, event.target.value)));
 });
 
-selectElement2.addEventListener("change", function(event) {
-  console.log(event.target.value);
+selectElement2.addEventListener("change", function (event) {
+  //console.log(event.target.value);
   root.innerHTML = '';
-  root.appendChild(renderItems(filterCategory(data, event.target.value)));
+  segundoFiltro = event.target.value;
+  //console.log("catergoria filtro", segundoFiltro);
+  refreshItems(clonedData);
+  // root.appendChild(renderItems(filterCategory(data, event.target.value)));
 });
 
-selectElement3.addEventListener("change", function(event) {
-  console.log(event.target.value);
+selectElement3.addEventListener("change", function (event) {
+  //console.log(event.target.value);
   root.innerHTML = '';
-  root.appendChild(renderItems(sortData(data, null, event.target.value)));
+  orderCriteria = event.target.value;
+  //console.log("sort", orderCriteria);
+  refreshItems(clonedData);
+  // root.appendChild(renderItems(sortData(data, null, event.target.value)));
 });
 
-computeButton.addEventListener("click", function() {
-  console.log(computeButton.value);
-  const statsResult = computeStats(data); // Pasar 'data' como argumento
-  console.log(statsResult);
-  const stats = document.getElementById("stats");
-  stats.innerHTML = `Uso de backend: ${statsResult.backendPercentage}    Uso de frontend: ${statsResult.frontendPercentage}`;
+function refreshItems(data) {
+  if (primerFiltro.length > 0) {
+    // aplica primer filtro
+    data = filterData(data, filterBy, primerFiltro);
+  }
+  if (segundoFiltro.length > 0) {
+    // aplica segundo filtro
+    data = filterCategory(data, segundoFiltro);
+  }
+  if (orderCriteria.length > 0) {
+    // aplica ordenamiento
+    data = sortData(data, null, orderCriteria);
+  }
+  root.appendChild(renderItems(data));
+}
+
+computeButton.addEventListener("click", function () {
+  //console.log("Botón 'Calcular' clicado");
+  const statsResult = computeStats(data);
+  //console.log("Resultados de las estadísticas:", statsResult);
+  const statsContainer = document.querySelector('[data-testid="statsContainer"]');
+  if (statsContainer) {
+    statsContainer.innerHTML = `Uso de backend: ${statsResult.backendPercentage}%    Uso de frontend: ${statsResult.frontendPercentage}%`;
+  } else {
+    //console.log("Elemento con atributo 'data-testid=\"statsContainer\"' no encontrado en el HTML");
+  }
 });
 
-resetButton.addEventListener("click", function() {
-  reset();
+resetButton.addEventListener("click", function () {
+  primerFiltro = "";
+  segundoFiltro = "";
+  orderCriteria = "";
+  clonedData = data;
+  // selectElement.selectedIndex = 0;
+  // selectElement2.selectedIndex = 0;
+  // selectElement3.selectedIndex = 0;
+  root.innerHTML = "";
+  root.appendChild(renderItems(data));
 });
 
 //selectElement.addEventListener("change", myFunction);
@@ -80,7 +123,3 @@ resetButton.addEventListener("click", function() {
 // function myfifthFunction() {
 //   reset();
 // }
-
-
-
-

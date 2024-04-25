@@ -4,15 +4,18 @@ export function filterBy(data, key, value) {
   return data.filter(item => item['facts'][key] === value);
 }
 
-export function filterData(data, value) {
-  
-  console.log(data, value);
+export function filterData(data, filterBy, value) {
+  console.log(data, filterBy, value);
   if (value === 'Google' || value === 'Amazon' || value === 'Nasa u otros') {
     return filterBy(data, 'empresaName', value);
   } else if (value === "") {
     return data;
+  } else {
+    return [];
   }
 }
+
+
 
 export function filterCategory(data, value) {
   console.log(data, value);
@@ -48,10 +51,9 @@ function compareDesc(a, b) {
 
 }
 
+
 export function sortData(data, sortBy, sortOrder) {
-  // data.sort(function(a, b) {
-  //return (a.name) -(b.name);
-  //};
+
   if (sortOrder === 'asc') {
     data.sort(compareAsc);
     return data;
@@ -88,34 +90,44 @@ export function computeStats(data) {
   // Calcular los porcentajes
   const backendPercentage = (backendCount / totalCount) * 100;
   const frontendPercentage = (frontendCount / totalCount) * 100;
-  const totaldata = data.reduce(acc => acc +1,0)
+  const totaldata = data.reduce(acc => acc + 1, 0) //iter de 1 en 1 , 0 es el
+  console.log(totaldata);
 
   // Retornar los resultados
   return {
     backendPercentage: backendPercentage.toFixed(2),
     frontendPercentage: frontendPercentage.toFixed(2)
-    
+
   };
 }
 
+/*
 export function reset() {
-  const selectElement = document.getElementById('filterSelect');
-  const selectElement2 = document.getElementById('filterSelect2');
-  const selectElement3 = document.getElementById('filterSelect3');
-  const statsElement = document.getElementById("stats");
+  const selectElement = document.querySelector('[data-testid="select-filter"]');
+  const selectElement2 = document.querySelector('[data-testid="select-sort"]');
+  const selectElement3 = document.querySelector('[data-testid="sort-order"]');
 
-  // Restablecer los valores de los elementos de selección
-  selectElement.value = '';
-  selectElement2.value = '';
-  selectElement3.value = '';
+  const statsContainer = document.querySelector('[data-testid="statsContainer"]');
 
-  // Limpiar el contenido del área de estadísticas
-  statsElement.innerHTML = '';
+  if (selectElement && selectElement2 && statsContainer) {
+    selectElement.value = '';
+    selectElement2.value = '';
+    selectElement3.value = '';
+    statsContainer.innerHTML = '';
+  }
+
+  // Restaurar la data original si se proporciona
+  if (originalData && Array.isArray(originalData)) {
+    const root = document.getElementById('root');
+    if (root) {
+      root.innerHTML = ''; // Limpiar el contenido actual
+
+      // Renderizar de nuevo la data original
+      root.appendChild(renderItems(originalData));
+    }
+  }
 }
-
-
-  
-
+*/
 
 
 

@@ -100,7 +100,7 @@ select {
 
 }
 
-#calculateButton {
+button[data-testid="calculateButton"] {
   background-image: url("./images/ultimo222.jpg");
   color: #f0f0f0;
   border-image: url("./images/ultimo222.jpg");
@@ -113,7 +113,7 @@ select {
 
 
 /* # es para identificar un elemento HTML a traves del atributo ID*/
-#Button-clear {
+button[data-testid="Button-clear"] {
   background-color: #d86363;
   color: #f0f0f0;
   border-color: #d86363;
@@ -125,7 +125,7 @@ select {
 }
 
 
-#Button-clear:hover {
+button[data-testid="Button-clear"]:hover {
   transform: scale(1.1);
   /* Aplica un aumento del 10% en el tamaño */
 }

@@ -19,6 +19,7 @@ test.describe('Pagina interraciones', () => {
 
   const getSortOptions = async (page) => {
     const selectSortEl = await page.getByTestId('select-sort')
+    console.log(selectSortEl.innerHTML)
     let sortByProperty = await selectSortEl.getAttribute('name'); 
     const sortOrderEl = await page.$('[name="sort-order"]');
 
@@ -133,7 +134,7 @@ test.describe('Pagina interraciones', () => {
       // await sortOrderEl.selectOption(sortOptions.desc);
       await selectSortOrder(sortOrderEl,sortOptions.desc);
       const valuesSortedDesc = await getItempropValues(page, sortByProperty);
-
+      console.log("--------------", valuesNoSorted)
       expect(valuesSortedAsc).toEqual([...valuesNoSorted].sort());
       expect(valuesSortedDesc).toEqual([...valuesNoSorted].sort().reverse());
     });

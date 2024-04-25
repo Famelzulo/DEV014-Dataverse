@@ -25,9 +25,26 @@ export const renderItems = (data) => {
       roleName: item.facts ? item.facts.roleName : null,
     }
   });
-  
+  //carro : item.name. ? item.name.kia,
+  //carro.name == 'kia' ? true : false
   let blocoItems = ""
   dataset.forEach(item => {
+
+    blocoItems +=  `
+    <li itemscope itemtype="languaje__item" class="languaje__item">
+    <dl itemscope itemtype="languaje__item" class="languaje__item">
+      <img src="${item.imageUrl}" class="languaje__img" alt="Ada Lovelace" />
+      <dt>Nombre:</dt><dd itemprop="sort">${item.name}</dd>
+      <dt>Lenguaje:</dt><dd itemprop="lenguaje">${item.creator}</dd>
+      <dt>Descripción:</dt><dd itemprop="description">${item.shortDescription}</dd>
+      <dt>Año de nacimiento:</dt><dd itemprop="yearOfBirth">${item.yearOfBirth}</dd>
+      <dt>Empresa:</dt><dd itemprop="empresaName">${item.empresaName}</dd>
+      <dt>Categoria:</dt><dd itemprop="category">${item.categoryName}</dd>
+    </dl>
+    </li>
+    `; 
+
+    /*
     blocoItems += `
         <li itemscope itemtype="languaje__item" class="languaje__item">
           <div class="languaje__content">
@@ -41,7 +58,8 @@ export const renderItems = (data) => {
             <p> <class="languaje__description">${item.shortDescription}</p>
             </div>
         </li>
-  `
+  `; */
+  
   });
   const ul = document.createElement('ul');
   ul.classList.add('languaje__item__container')
