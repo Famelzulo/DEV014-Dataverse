@@ -2,9 +2,11 @@
 
 export function filterBy(data, key, value) {
   return data.filter(item => item['facts'][key] === value);
+  
 }
 
 export function filterData(data, filterBy, value) {
+  //motivos de test
   console.log(data, filterBy, value);
   if (value === 'Google' || value === 'Amazon' || value === 'Nasa u otros') {
     return filterBy(data, 'empresaName', value);
