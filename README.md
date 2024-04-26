@@ -98,9 +98,6 @@ En esta ocasion usamos FIGMA.
 
 
 
-
-
-
 ## Funcionalidades
 
 ### 1. Filtrado por Empresas
@@ -119,7 +116,8 @@ Descendente
 Promedio de Lenguajes para Backend y Frontend en Porcentajes
 ### 5. Limpieza de Búsquedas
 
-color_ rojo (### Demostración)
+### Demostración
+
 Vamos a sumergirnos en una demostración de cómo funciona DataVerse. [Demo en Vivo]
 
 ### Beneficios
