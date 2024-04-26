@@ -26,6 +26,7 @@
  
  ### Cuarta historia de usuari@
  Como usuaria de Data-verse, deseo ver un calculo estadístico en este caso ,cuantos de los 24 lenguajes ingresados son usados para backend y cuantos para frontend.
+ 
  ![4HU](https://github.com/Famelzulo/DEV014-Dataverse/assets/126844509/8f0da5fd-a798-42d2-afeb-1f6f1a42a224)
 
  
