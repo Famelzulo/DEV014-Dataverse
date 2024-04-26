@@ -1,0 +1,158 @@
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-image: url("./images/ultimo222.jpg"); 
+  background-size: cover;
+  color: #f0f0f0; /* Color del texto */
+  padding: 10px; /* Relleno interior */
+  border-bottom: 2px solid white; /* Borde inferior */
+}
+
+.body {
+  background-image :  url("./images/ultimo222.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+/*contiene el espacio en medio*/
+.languaje__item__container {
+  /* max-width: 1250px;*/
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+/*todo relacionado a las cards*/
+.languaje__item {
+   /* max-width: calc(30% - 1rem);  Ancho máximo para cada tarjeta */
+  background-image: url("./images/ultimo222.jpg");
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  color: #1c1838;
+  font-weight: 300;
+  font-style: normal;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  flex-basis: clamp(250px, 25%, 1fr);
+  margin: 0;
+  padding: 0;
+  line-height: 1.4rem;
+  width: 390px;
+  border: 5px solid ;
+  border-color: rgb(210, 233, 240);
+  transition: transform 0.3s ease;
+}
+
+.languaje__item:hover {
+  transform: scale(1.1); /* Aplica el zoom */
+}
+
+
+.languaje__img {
+  width: 380px;
+  /* Cambia el ancho de la imagen */
+  height: 270px;
+  /* Cambia la altura de la imagen */
+  border-radius: 8px;
+
+}
+
+
+h1 {
+  background-image: url(https://i.pinimg.com/564x/f2/7c/5a/f27c5af83c7140a5be88eb116f26e268.jpg);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: white;
+  font-size: 8rem;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: #efb810;
+ text-decoration: underline;
+ text-decoration-color: white;
+  
+}
+
+.marco {
+  border: 2px solid rgb(255, 255, 255);
+  /* Esto crea un borde de 2px de ancho, sólido y de color negro */
+  padding: 30px;
+  border-radius: 8px;
+  /* Añade un espacio interno de 20px para separar el contenido del borde */
+  background-color: white;
+  background-size: contain;
+  background-position: center;
+  color: #7a6a22;
+  font-size: 18px;
+}
+
+
+select {
+  width: 200px;
+  font-size: 13px;
+  border-radius: 8px;
+
+}
+
+button[data-testid="calculateButton"] {
+  background-image: url("./images/ultimo222.jpg");
+  color: #f0f0f0;
+  border-image: url("./images/ultimo222.jpg");
+  border-radius: 8px;
+  margin-right: 100px;
+  float: center;
+  margin-right: 1rem;
+  /* Estilos para el botón */
+}
+
+
+/* # es para identificar un elemento HTML a traves del atributo ID*/
+button[data-testid="Button-clear"] {
+  background-color: #d86363;
+  color: #f0f0f0;
+  border-color: #d86363;
+  transition: transform 0.3s ease;
+  /* Agrega una transición suave */
+  border-radius: 8px;
+  float: right;
+  margin-right: 8rem;
+}
+
+
+button[data-testid="Button-clear"]:hover {
+  transform: scale(1.1);
+  /* Aplica un aumento del 10% en el tamaño */
+}
+
+#stats-container {
+  border: 2px solid #ccc; /* Color del borde y grosor */
+  padding: 10px; /* Espacio alrededor del contenido */
+  background-color: #f0f0f0; /* Color de fondo */
+}
+
+#stats {
+  border: 1px solid #ccc; /* Borde alrededor de stats */
+  border-radius: 8px;
+  padding: 0px; /* Espacio alrededor del contenido de stats */
+  top: 0; /* Distancia desde la parte superior del contenedor padre */
+  left: 30px;
+  width: 380px;
+
+   /* Distancia
+  /* Estilos CSS para el elemento con el id "stats" */
+}
+
+footer {
+  background-color: #8ed5ff; 
+  color: #f0f0f0; 
+  border-top: 2px solid #ccc; 
+  border-color: white;
+  width: 100px;
+}
+

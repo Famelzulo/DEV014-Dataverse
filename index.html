@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Lenguajes de Programacion</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Special+Elite&display=swap"
+    rel="stylesheet">
+</head>
+<!----------------------------------------------------------------------------------------------------------------------------------------------->
+<body class="body">
+  <header>
+    <h1>
+      Mentes de la Programacion
+    </h1>
+  </header>
+  <!------------------------------------------------------------------------------------------------------------------------------------------------>
+  <img src="./images/laptop.svg" />
+  <img src="./images/keyboard.svg" />
+  <img src="./images/tabler.svg" />
+  <!---------------------------------------------------------------------------------------------------------------------------------------------------->
+  <div class="marco">
+    <label for="filterSelect">Filtrar por:</label>
+    <select id="filterSelect" data-testid="select-filter" name="filter">
+        <option value=" "></option>
+        <option value="Google">Google</option>
+        <option value="Amazon">Amazon</option>
+        <option value="Nasa u otros">Nasa u otros</option>
+    </select>
+    
+    <label for="filterSelect2">Categorizar por:</label>
+    <select id="filterSelect2" data-testid="select-sort2" name="category">
+        <option value=" "></option>
+        <option value="Tipado">Tipado</option>
+        <option value="No tipado">No tipado</option>
+        <option value="Turing completo">Turing completo</option>
+    </select>
+    
+    <label for="filterSelect3">Ordenar por nombre:</label>
+    <select id="filterSelect3" data-testid="select-sort" name="sort">
+        <option value=" "></option>
+        <option value="asc">Ascendente</option>
+        <option value="desc">Descendente</option>
+    </select>
+    
+    <button data-testid="calculateButton">Calcular</button>
+    <div data-testid="statsContainer"></div>
+
+
+    <button data-testid="button-clear">Limpiar</button>
+    
+</div>
+
+
+    <div id="filteredResults">
+  </div>
+  <!----------------------------------------------------------------------------------------------------------------------------------------------------->
+  <div class="flex-container">
+  </div>
+
+  <div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </div>
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <div id="root"></div>
+  <div id="data">
+  </div>
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <footer>ArtService</footer>
+  <script src="main.js" type="module"></script>
+
+</body>
+
+</html>
