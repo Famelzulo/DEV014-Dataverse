@@ -61,14 +61,14 @@ describe('sortData', () => {
   it('Orden ascendente por nombre', () => {
   
     const sortedData = sortData([data], 'name', 'asc');
-    const dataresult = sortedData
-    expect(sortedData).toBe(dataresult);
+    const expectedData = sortedData
+    expect(sortedData).toBe(expectedData);
   });
 
   // Prueba de orden descendente por nombre
   it('Orden descendente por nombre', () => {
     const sortedData = sortData( [data], 'name', 'desc');
-    const dataresult = sortedData
-    expect(sortedData).toBe(dataresult);
+    const expectedData = sortedData
+    expect(sortedData).toBe(expectedData);
   });
 });
