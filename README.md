@@ -2,20 +2,38 @@
 
 ## Introducción
 ¡Bienvenidos a DataVerse - Mentes de la Programación! En este proyecto, exploramos el fascinante mundo de la creación de lenguajes de programación a través de 24 tarjetas dedicadas a 24 creadores destacados. Utilizando tecnologías como HTML, JavaScript y CSS, hemos creado una experiencia interactiva para conocer más sobre los genios detrás de los lenguajes que usamos a diario.
- ## Criterios del proyecto
+ ### Criterios del proyecto
+ 
  En los criterios del proyecto tenemos una serie de pasos a seguir para poder formular nuestro proyecto.
- ## Historias de usuari@
- Aqui nos basamos en lo que el usuari@ desea ver en la pagina web:
+
+ ### Historias de usuari@
+  Aqui nos basamos en lo que el usuari@ desea ver en la pagina web:
+ 
  ### Primera historia de usuari@
- Yo como usuaria de Data_Verse quiero ver personas importantes en el ambito de la programacion para conocer informacion relevante.
+ Yo como usuaria de Data_Verse quiero ver personas importantes en el ambito de la programacion para conocer informacion relevante
+ ![capture_240426_044835](https://github.com/Famelzulo/DEV014-Dataverse/assets/126844509/be034759-925b-4e5c-bd77-3b944c376315)
+
+ 
  ### Segunda historia de ususari@
  Yo como usuaria de el proyecto de Data_Verse  quiero filtrar por las empresas que usan los lenguajes de programacion.
+ ![capture_240426_045042](https://github.com/Famelzulo/DEV014-Dataverse/assets/126844509/560384bf-3081-4d00-91c2-13fcf13969e0)
+
+ 
  ### Tercera hiatoria de ussuaria@
  Como usuaria del proyecto Data_Verse quiero ver en orden alfabetico ls 24 lenguajes.
+![3HU](https://github.com/Famelzulo/DEV014-Dataverse/assets/126844509/2c8880de-45fc-4031-96ca-e6ab5ed81f70)
+
+ 
  ### Cuarta historia de usuari@
  Como usuaria de Data-verse, deseo ver un calculo estadístico en este caso ,cuantos de los 24 lenguajes ingresados son usados para backend y cuantos para frontend.
+ ![4HU](https://github.com/Famelzulo/DEV014-Dataverse/assets/126844509/8f0da5fd-a798-42d2-afeb-1f6f1a42a224)
+
+ 
  ### Quinta historia de usuari@
  Como usuaria deseo ver un boton que reestablezca las busquedas realizadas en la pagina web, retornando a la data inicial.
+ ![5HU](https://github.com/Famelzulo/DEV014-Dataverse/assets/126844509/2be1f84d-b5c7-4a7e-a6d6-058bc457af93)
+
+ 
 
  ## Generacion de datos (dataset)
  En nuestro proyecto, con la ayuda de la inteligencia artificial, en este caso Chatgot generaremos la data .
