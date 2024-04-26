@@ -29,6 +29,20 @@ export function filterCategory(data, value) {
 }
 
 
+export function sortData(data, sortBy, sortOrder) {
+
+  if (sortOrder === 'asc') {
+    data.sort(compareAsc);
+    return data;
+  } else if (sortOrder === 'desc') {
+    data.sort(compareDesc);
+    return data;
+  } else if (sortOrder === "") {
+    return data;
+  }
+
+
+}
 
 
 
@@ -54,23 +68,6 @@ function compareDesc(a, b) {
 }
 
 
-export function sortData(data, sortBy, sortOrder) {
-
-  if (sortOrder === 'asc') {
-    data.sort(compareAsc);
-    return data;
-  } else if (sortOrder === 'desc') {
-    data.sort(compareDesc);
-    return data;
-  } else if (sortOrder === "") {
-    return data;
-  }
-
-
-}
-
-
-
 export function computeStats(data) {
   // Contadores para lenguajes backend y frontend
   let backendCount = 0;
@@ -94,6 +91,7 @@ export function computeStats(data) {
   const frontendPercentage = (frontendCount / totalCount) * 100;
   const totaldata = data.reduce(acc => acc + 1, 0) //iter de 1 en 1 , 0 es el
   console.log(totaldata);
+
 
   // Retornar los resultados
   return {
