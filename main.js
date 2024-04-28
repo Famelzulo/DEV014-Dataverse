@@ -9,6 +9,7 @@ const selectElement = document.querySelector('[data-testid="select-filter"]');
 const selectElement2 = document.querySelector('[data-testid="select-sort2"]');
 const selectElement3 = document.querySelector('[data-testid="select-sort"]');
 const computeButton = document.querySelector('[data-testid="calculateButton"]');
+const statsContainer = document.querySelector('[data-testid="statsContainer"]');
 const resetButton = document.querySelector('[data-testid="button-clear"]');
 
 // Tu lógica de manipulación de eventos y otros procesos aquí...
@@ -24,8 +25,10 @@ selectElement.addEventListener("change", function (event) {
   root.innerHTML = '';
   primerFiltro = event.target.value;
   //console.log("primer filtro", primerFiltro);
-  refreshItems(clonedData);
-  // root.appendChild(renderItems(filterData(data, filterBy, event.target.value)));
+  clonedData = refreshData(clonedData);
+  console.log(1111,clonedData)
+  //root.appendChild(renderItems(filterData(data, filterBy, event.target.value)));
+  root.appendChild(renderItems(clonedData));
 });
 
 selectElement2.addEventListener("change", function (event) {
@@ -33,8 +36,9 @@ selectElement2.addEventListener("change", function (event) {
   root.innerHTML = '';
   segundoFiltro = event.target.value;
   //console.log("catergoria filtro", segundoFiltro);
-  refreshItems(clonedData);
+  clonedData =  refreshData(clonedData);
   // root.appendChild(renderItems(filterCategory(data, event.target.value)));
+  root.appendChild(renderItems(clonedData));
 });
 
 selectElement3.addEventListener("change", function (event) {
@@ -42,25 +46,10 @@ selectElement3.addEventListener("change", function (event) {
   root.innerHTML = '';
   orderCriteria = event.target.value;
   //console.log("sort", orderCriteria);
-  refreshItems(clonedData);
+  clonedData = refreshData(clonedData);
   // root.appendChild(renderItems(sortData(data, null, event.target.value)));
+  root.appendChild(renderItems(clonedData));
 });
-
-function refreshItems(data) {
-  if (primerFiltro.length > 0) {
-    // aplica primer filtro
-    data = filterData(data, filterBy, primerFiltro);
-  }
-  if (segundoFiltro.length > 0) {
-    // aplica segundo filtro
-    data = filterCategory(data, segundoFiltro);
-  }
-  if (orderCriteria.length > 0) {
-    // aplica ordenamiento
-    data = sortData(data, null, orderCriteria);
-  }
-  root.appendChild(renderItems(data));
-}
 
 computeButton.addEventListener("click", function () {
   //console.log("Botón 'Calcular' clicado");
@@ -74,17 +63,47 @@ computeButton.addEventListener("click", function () {
   }
 });
 
+// actualiza data (no renderiza)
+function refreshData(data) {
+  if (primerFiltro.length > 0) {
+    // aplica primer filtro
+    data = filterData(data, filterBy, primerFiltro);
+  }
+  if (segundoFiltro.length > 0) {
+    // aplica segundo filtro
+    data = filterCategory(data, segundoFiltro);
+  }
+  if (orderCriteria.length > 0) {
+    // aplica ordenamiento
+    console.log(11, data);
+    data = sortData(data, null, orderCriteria);
+    console.log(22, data);
+
+  }
+  return data;
+  //if (computeStats.length > 0) {
+  //  root.appendChild(renderItems(data));
+  //}
+}
+
+
+
 resetButton.addEventListener("click", function () {
+  // limpia los filtros
   primerFiltro = "";
   segundoFiltro = "";
   orderCriteria = "";
+
+  // elementos html a su estado inicial
+  selectElement.value = " ";
+  selectElement2.value = " ";
+  selectElement3.value = " ";
+  statsContainer.innerHTML = " ";
   clonedData = data;
-  // selectElement.selectedIndex = 0;
-  // selectElement2.selectedIndex = 0;
-  // selectElement3.selectedIndex = 0;
   root.innerHTML = "";
   root.appendChild(renderItems(data));
 });
+
 
 //selectElement.addEventListener("change", myFunction);
 //selectElement2.addEventListener("change", mySecondFunction);
