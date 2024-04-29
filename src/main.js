@@ -1,7 +1,7 @@
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
 import { filterData, filterCategory, sortData, computeStats, filterBy } from './dataFunctions.js'
-
+//identificador  #
 const root = document.querySelector("#root");
 root.appendChild(renderItems(data));
 
@@ -14,7 +14,7 @@ const resetButton = document.querySelector('[data-testid="button-clear"]');
 
 // Tu lógica de manipulación de eventos y otros procesos aquí...
 
-// variables de operacion
+// variables de operacion(contiene los resultados)
 let primerFiltro = "";
 let segundoFiltro = "";
 let orderCriteria = "";
@@ -22,12 +22,10 @@ let clonedData = data;
 
 selectElement.addEventListener("change", function (event) {
   //console.log(event.target.value);
-  root.innerHTML = '';
+  root.innerHTML = ''; 
   primerFiltro = event.target.value;
   //console.log("primer filtro", primerFiltro);
   clonedData = refreshData(clonedData);
-  console.log(1111,clonedData)
-  //root.appendChild(renderItems(filterData(data, filterBy, event.target.value)));
   root.appendChild(renderItems(clonedData));
 });
 
@@ -37,7 +35,6 @@ selectElement2.addEventListener("change", function (event) {
   segundoFiltro = event.target.value;
   //console.log("catergoria filtro", segundoFiltro);
   clonedData =  refreshData(clonedData);
-  // root.appendChild(renderItems(filterCategory(data, event.target.value)));
   root.appendChild(renderItems(clonedData));
 });
 
@@ -47,7 +44,6 @@ selectElement3.addEventListener("change", function (event) {
   orderCriteria = event.target.value;
   //console.log("sort", orderCriteria);
   clonedData = refreshData(clonedData);
-  // root.appendChild(renderItems(sortData(data, null, event.target.value)));
   root.appendChild(renderItems(clonedData));
 });
 
@@ -89,7 +85,7 @@ function refreshData(data) {
 
 
 resetButton.addEventListener("click", function () {
-  // limpia los filtros
+  // limpia los filtros o sumario o variables de filtro
   primerFiltro = "";
   segundoFiltro = "";
   orderCriteria = "";
@@ -104,41 +100,3 @@ resetButton.addEventListener("click", function () {
   root.appendChild(renderItems(data));
 });
 
-
-//selectElement.addEventListener("change", myFunction);
-//selectElement2.addEventListener("change", mySecondFunction);
-//selectElement3.addEventListener("change", myThirdFunction);
-//computeButton.addEventListener("click", myFourthFunction);
-//resetButton.addEventListener("click", myfifthFunction);
-// function myFunction() {
-//   console.log(selectElement.value);
-//   root.innerHTML = '';
-//   root.appendChild(renderItems(filterData(data, selectElement.value)));
-// }
-
-// function mySecondFunction() {
-//   console.log(selectElement2.value);
-//   root.innerHTML = '';
-//   root.appendChild(renderItems(filterCategory(data, selectElement2.value)));
-// }
-
-// function myThirdFunction() {
-//   console.log(selectElement3.value);
-//   root.innerHTML = '';
-//   root.appendChild(renderItems(sortData(data, null, selectElement3.value)));
-// }
-
-// function myFourthFunction() {
-//   // Invoca la función computeStats aquí
-//   console.log(computeButton.value)
-//   const statsResult = computeStats(data); // Pasar 'data' como argumento
-//   console.log(statsResult);
-//   const stats = document.getElementById("stats");
-//   //stats.innerHTML = statsResult.frontendPercentage + statsResult.backendPercentage ;
-//   //``
-//   stats.innerHTML = `Uso de backend: ${statsResult.backendPercentage}    Uso de frontend: ${statsResult.frontendPercentage}`;
-// }
-
-// function myfifthFunction() {
-//   reset();
-// }

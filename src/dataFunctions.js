@@ -89,8 +89,8 @@ export function computeStats(data) {
   // Calcular los porcentajes
   const backendPercentage = (backendCount / totalCount) * 100;
   const frontendPercentage = (frontendCount / totalCount) * 100;
-  const totaldata = data.reduce(acc => acc + 1, 0) //iter de 1 en 1 , 0 es el
-  console.log(totaldata);
+  //const totaldata = data.reduce(acc => acc + 1, 0) //iter de 1 en 1 , 0 es el
+  //console.log(totaldata);
 
 
   // Retornar los resultados
@@ -101,33 +101,6 @@ export function computeStats(data) {
   };
 }
 
-/*
-export function reset() {
-  const selectElement = document.querySelector('[data-testid="select-filter"]');
-  const selectElement2 = document.querySelector('[data-testid="select-sort"]');
-  const selectElement3 = document.querySelector('[data-testid="sort-order"]');
-
-  const statsContainer = document.querySelector('[data-testid="statsContainer"]');
-
-  if (selectElement && selectElement2 && statsContainer) {
-    selectElement.value = '';
-    selectElement2.value = '';
-    selectElement3.value = '';
-    statsContainer.innerHTML = '';
-  }
-
-  // Restaurar la data original si se proporciona
-  if (originalData && Array.isArray(originalData)) {
-    const root = document.getElementById('root');
-    if (root) {
-      root.innerHTML = ''; // Limpiar el contenido actual
-
-      // Renderizar de nuevo la data original
-      root.appendChild(renderItems(originalData));
-    }
-  }
-}
-*/
 
 
 

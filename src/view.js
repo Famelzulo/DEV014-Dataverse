@@ -27,6 +27,7 @@ export const renderItems = (data) => {
   });
   //carro : item.name. ? item.name.kia,
   //carro.name == 'kia' ? true : false
+  //array.length == 25  ? true :false 
   let blocoItems = ""
   dataset.forEach(item => {
 
@@ -44,21 +45,7 @@ export const renderItems = (data) => {
     </li>
     `; 
 
-    /*
-    blocoItems += `
-        <li itemscope itemtype="languaje__item" class="languaje__item">
-          <div class="languaje__content">
-          <img src="${item.imageUrl}" class="languaje__img">
-            <dd itemprop="select-sort"><p><strong>Nombre:</strong>${item.name}</p></dd>
-            <dd itemprop="select-sort"><p><strong>Lenguaje:</strong>:${item.creator}</p></dd>    
-            <dd itemprop="select-sort"><p><strong>Año de creacion:</strong> ${item.yearOfBirth}</p></dd>
-            <dd itemprop="select-sort"><p><strong>Empresa:</strong>${item.empresaName}</p></dd>
-            <dd itemprop="select-sort"><p><strong>Categoria:</strong>${item.categoryName}</p></dd>
-            <dd itemprop="select-sort"><p><strong>Area de uso:</strong>${item.roleName}</p></dd>
-            <p> <class="languaje__description">${item.shortDescription}</p>
-            </div>
-        </li>
-  `; */
+  
   
   });
   const ul = document.createElement('ul');
