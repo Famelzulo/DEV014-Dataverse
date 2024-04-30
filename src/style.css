@@ -116,7 +116,6 @@ button[data-testid="calculateButton"] {
   /* Estilos para el botón */
 }
 
-
 button[data-testid="button-clear"] {
   background-color: #c98080; 
   color: #f0f0f0; 

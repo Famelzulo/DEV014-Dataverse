@@ -1,18 +1,7 @@
 export const renderItems = (data) => {
   //AQUI SE GENERA LOS ELEMENTOS HTML
 
-  //console.log(data);
-  // Aquí comienza tu código y puedes retornar lo que tu necesites
-  // <dl itemscope itemtype="Lenguajes de programacion">
-  //   <img src="" />
-  //   <dt>Nombre:</dt><dd itemprop="name">Phyton</dd>
-  //   <dt>short Descripción:</dt><dd itemprop="short description">Pionera de la informática, fue la primera programadora.</dd>
-  //   <dt>Descripción:</dt><dd itemprop="description">Pionera de la informática, fue la primera programadora.</dd>
-  //   <dt>Año de creacion:</dt><dd itemprop="yearOfBirth">1843</dd>
-  //   <dt>Creador:</dt><dd itemprop="creator">London, England</dd>
-  //   <dt>Comanpanias que lo usan:</dt><dd itemprop="companieUsingIt">Computer Science</dd>
-  // </dl>
-  // seria DL
+  
   const dataset = data.map((item) => {
     return {
       name: item.name,
@@ -25,9 +14,7 @@ export const renderItems = (data) => {
       roleName: item.facts ? item.facts.roleName : null,
     }
   });
-  //carro : item.name. ? item.name.kia,
-  //carro.name == 'kia' ? true : false
-  //array.length == 25  ? true :false 
+
   let blocoItems = ""
   dataset.forEach(item => {
 

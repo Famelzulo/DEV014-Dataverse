@@ -23,19 +23,25 @@ let clonedData = data;
 selectElement.addEventListener("change", function (event) {
   //console.log(event.target.value);
   root.innerHTML = ''; 
-  primerFiltro = event.target.value;
+  const valordelfiltro = event.target.value;
   //console.log("primer filtro", primerFiltro);
-  clonedData = refreshData(clonedData);
-  root.appendChild(renderItems(clonedData));
+  //clonedData = refreshData(clonedData);
+  const informacionfiltrada = filterBy(data , "empresaName" , valordelfiltro);
+  const nuevohtml = renderItems(informacionfiltrada);
+  root.appendChild(nuevohtml);
 });
 
 selectElement2.addEventListener("change", function (event) {
   //console.log(event.target.value);
   root.innerHTML = '';
-  segundoFiltro = event.target.value;
+  const valordelfiltro2 = event.target.value;
+  const informacionfiltrada2 = filterBy(data , "categoryName" , valordelfiltro2)
+  //segundoFiltro = event.target.value;
   //console.log("catergoria filtro", segundoFiltro);
-  clonedData =  refreshData(clonedData);
-  root.appendChild(renderItems(clonedData));
+  const nuevohtml1 = renderItems(informacionfiltrada2);
+  root.appendChild(nuevohtml1);
+  //clonedData =  refreshData(clonedData);
+  //root.appendChild(renderItems(clonedData));
 });
 
 selectElement3.addEventListener("change", function (event) {

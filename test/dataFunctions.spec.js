@@ -69,6 +69,6 @@ describe('sortData', () => {
   it('Orden descendente por nombre', () => {
     const sortedData = sortData( [data], 'name', 'desc');
     const expectedData = sortedData
-    expect(sortedData).toBe(expectedData);
+    expect(sortedData).toEqual(expectedData);
   });
 });
